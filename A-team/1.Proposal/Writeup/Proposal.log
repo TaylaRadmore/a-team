@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.6)  3 APR 2018 17:26
-=======
-<<<<<<< HEAD:A-team/Proposal/Writeup/Proposal.log
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.3)  3 APR 2018 17:19
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.6)  3 APR 2018 16:21
->>>>>>> 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Proposal/Writeup/Proposal.log
->>>>>>> ea72a2b81f1f745319eb2bf92bd40d8019f31b20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.6)  3 APR 2018 17:41
 entering extended mode
 **./Proposal.tex
 (Proposal.tex
@@ -329,7 +321,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write3
 \openout3 = `Proposal.out'.
 
-<Figures/UCTlogo.jpg, id=43, 171.5208pt x 173.9298pt>
+<Figures/UCTlogo.jpg, id=47, 171.5208pt x 173.9298pt>
 File: Figures/UCTlogo.jpg Graphic file (type jpg)
 <use Figures/UCTlogo.jpg>
 Package pdftex.def Info: Figures/UCTlogo.jpg  used on input line 43. on input l
@@ -347,18 +339,16 @@ CTlogo.jpg>] (Proposal.toc)
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-<<<<<<< HEAD:A-team/Proposal/Writeup/Proposal.log
-l.89 
-      [1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
+l.94 
+      [1] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 115.
 
-
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscm
-r.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
+ [3]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -368,64 +358,23 @@ Missing character: There is no ù in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [2] [3] [4] [5] (Proposal.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
+
+[4] [5] [6] [7] [8] (Proposal.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
  (Proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
 Package rerunfilecheck Info: File `Proposal.out' has not changed.
-(rerunfilecheck)             Checksum: A7177A0691294E72DD031F8E820406E6;490.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
+(rerunfilecheck)             Checksum: 397F27BCAE53F500E9E1860A819DBB54;591.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
  ) 
 Here is how much of TeX's memory you used:
- 6536 strings out of 493323
- 95960 string characters out of 3139040
- 189486 words of memory out of 3000000
- 9973 multiletter control sequences out of 15000+200000
- 10449 words of font info for 38 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 28i,6n,28p,1035b,438s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Tayla Radmore/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><C:/Users/Tayla Radmore/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tayla Radmore/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Tayla 
-Radmore/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Users/Tayla Radmore/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmti12.pfb><C:/Users/Tayla Radmore/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Proposal.pdf (8 pages, 170604 bytes).
-PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-l.90 
-      [1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
- [2] [3]
-[4] [5] [6] (Proposal.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
- (Proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
-Package rerunfilecheck Info: File `Proposal.out' has not changed.
-(rerunfilecheck)             Checksum: B5E93CE467E732D6ABBD115F589D749B;524.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
- ) 
-Here is how much of TeX's memory you used:
- 6491 strings out of 493314
- 92533 string characters out of 3138868
- 187282 words of memory out of 3000000
- 9934 multiletter control sequences out of 15000+200000
+ 6496 strings out of 493314
+ 92590 string characters out of 3138868
+ 187328 words of memory out of 3000000
+ 9936 multiletter control sequences out of 15000+200000
  10449 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,6n,28p,1034b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -435,10 +384,9 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmtt12.pfb>
-Output written on Proposal.pdf (9 pages, 170340 bytes).
+Output written on Proposal.pdf (11 pages, 178909 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Proposal/Writeup/Proposal.log
+ 200 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,9 +5,15 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{url}
+%\usepackage{appendix}
 
 %Any global settings go here
 \graphicspath{{Figures/}}
+
+\bibpunct[:]{(}{)}{;}{a}{,}{,}
+
+\renewcommand{\baselinestretch}{1.5}
 
 %some shortcut commands
 \newcommand{\bi}{\begin{itemize}}
@@ -16,8 +22,6 @@
 \newcommand{\ee}{\end{enumerate}}
 
 \begin{document}
-
-
 
 \begin{titlepage}
 
@@ -36,7 +40,7 @@ Thomas K{\"o}nigkr{\"a}mer (KNGTHO005)}
 \begin{figure}
 
 \begin{center}
-\includegraphics[width=5cm]{UCTlogo.jpg}\\[1cm]
+\includegraphics[width=3cm]{UCTlogo.jpg}\\[1cm]
 \end{center}
 
 \end{figure}
@@ -46,9 +50,6 @@ Thomas K{\"o}nigkr{\"a}mer (KNGTHO005)}
 {\tt mntric006@myuct.ac.za}\\
 {\tt rdmtay001@myuct.ac.za}\\
 {\tt thomasekng@gmail.com}
-
-
-keywords: Value-at-Risk, Expected Shortfall, Downside deviance, volatility, risk-budgeting, diversification.
 \end{center}
 
 \thispagestyle{empty}
@@ -63,13 +64,14 @@ keywords: Value-at-Risk, Expected Shortfall, Downside deviance, volatility, risk
 
 \pagenumbering{arabic}
 
-\citep{bruder2012managing}\\
-\cite{dowd2006after}
-% Tom why are we randomly citing stuff here
-
 \section{Introduction}
 \label{sec:Intro}
-Equity portfolios are created by allocating various weightings to the shares comprising the portfolio. These weightings are 
+
+Asset allocation is an important aspect of creating a portfolio of assets. This process is commonly referred to as the diversification strategy. The majority of literature on the matter, however, focuses specifically on diversification strategies which use volatility as the risk measure. With this project, we intend to assess the efficacy of diversification strategies based on alternative risk measures.
+This research is important, because the use of volatility as a risk measure has come under scrutiny of late (add reference here).
+% sorry Rich - I started on this a bit because I was unsure if some of the things that I was including in the method should actually be mentioned in the intro, so I just popped in here and added them.
+
+
 
 
 \section{Research Question}
@@ -79,12 +81,18 @@ Equity portfolios are created by allocating various weightings to the shares com
 \section{Literature Review}
 \label{sec:LitRev}
 
+<<<<<<< HEAD:A-team/Proposal/Writeup/Proposal.tex
 \subsection{Major Literature}
 \label{subsec:MajLit}
 To date some quantile-based risk measures have been looked into. Namely "Value-at-Risk (VaR), coherent risk measures, spectral risk measures, and distortion risk measures" \citep{dowd2006after}.
+=======
+\subsection{Literature Reviewed}
+\label{subsec:LitRevd}
+>>>>>>> 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Proposal/Writeup/Proposal.tex
 
- \cite{dowd2006after} believe that VaR is an imperfect measure. It may well still be reasonable to look into VaR as it is a well known measure and is not particularly complicated for someone in the relevant field of work to understand. Looking further into VaR, \cite{dowd2006after} feel that there are some positive aspects. Namely that VaR can be used to compare portfolios that are not restricted to a certain type of asset; VaR takes into account the portfolios internal correlations in turn allowing a consideration of number of variables changing at once and lastly it's result is easy to understand and has a linked probability.  \cite{dowd2006after} believe a significant limitation of VaR is that it gives no information about what happens if that worst case lower tail end occurs and they feel that this makes this particular measure a poor measure to be used as a risk target measure. \cite{ACERBI20021505} believe VaR is not a good measure because it does not meet the axioms of coherence.
+To date some quantile-based risk measures have been looked into. Namely "Value-at-Risk (VaR), coherent risk measures, spectral risk measures, and distortion risk measures" \citep{dowd2006after}.
 
+<<<<<<< HEAD:A-team/Proposal/Writeup/Proposal.tex
 The next group of risk measures looked into were coherent risk measures and in particular Expected Shortfall \citep{ACERBI20021505}. \cite{dowd2006after} feel that this is still a measure that is easy to generate. They do, however, draw attention to the fact that this particular measure suggests the investor is risk-neutral past that lower tail, this may be seen as problematic. Expected Shortfall will ideally be looked into in much greater detain before starting back-testing.
 
 This progressed to looking into spectral risk measures as these measures align with coherence and risk aversion theory \citep{dowd2006after}. Here \cite{dowd2006after} highlight a number of issues with risk aversion theory, which will not be expanded on at this point but it is worthwhile to keep in mind that risk aversion theory is not a perfect or universally accepted idea. Ideally spectral risk measures will be looked into in much greater detail going forward.
@@ -92,15 +100,22 @@ This progressed to looking into spectral risk measures as these measures align w
 Lastly Distortion measures were briefly looked into, in particular the Wang Transform and a generalisation of it  \citep{dowd2006after}. \cite{dowd2006after} believed that a strength of this measure is its ability to recover the Capital Asset Pricing Model as well as Black-Scholes and that it is a superior measure compared to expected shortfall.
  
 It is worth mentioning that \cite{dowd2006after} state in their paper that with regards to risk measures it may often be a case of the best measure for a particular application and not a case of there being a certain risk measure that is better than all the others. 
+=======
+\cite{dowd2006after} believe that VaR is an imperfect measure. It may well still be reasonable to look into VaR as it is a well known measure and is not particularly complicated for someone in the relevant field of work to understand. Looking further into VaR, \cite{dowd2006after} feel that there are some positive aspects. Namely that VaR can be used to compare portfolios that are not restricted to a certain type of asset; VaR takes into account the portfolios internal correlations in turn allowing a consideration of number of variables changing at once and lastly it's result is easy to understand and has a linked probability.  \cite{dowd2006after} believe a significant limitation of VaR is that it gives no information about what happens if that worst case lower tail end occurs and they feel that this makes this particular measure a poor measure to be used as a risk target measure. \cite{ACERBI20021505} believe VaR is not a good measure because it does not meet the axioms of coherence.
+>>>>>>> 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Proposal/Writeup/Proposal.tex
 
 A justification for replacing VaR with one of these other measures provided by \cite{dowd2006after} is that it would require very little extra work. 
 
 \subsection{Further Reading}
 \label{subsec:FurRead}
 
+<<<<<<< HEAD:A-team/Proposal/Writeup/Proposal.tex
 In addition to the works discussed, further ideas should be looked into. Firstly looking at other risk measures that could be used as well as looking into the previously mentioned measures further. Secondly investigating methods to use these risk measures to diversify a portfolio. 
 
 \cite{dowd2006after} mentioned a number of other risk measures, that may be worthwhile to look into briefly. If some generate any interest they can be looked into further and perhaps added to this paper. These measures were:
+=======
+In addition to the major works discussed, we plan to consult the following supplementary readings:
+>>>>>>> 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Proposal/Writeup/Proposal.tex
 \bi
 \item Convex risk measures
 \item Dynamic risk measures
@@ -121,12 +136,24 @@ Some further papers that may aid this process are:
 \item
 \ei
 
-\section{Methodology \& Data}
-\label{sec:Method}
-Firstly we will have to collect historical equities' price data. We will be concentrating on the South African market. This will be obtained from industry with the help of our supervisor, Rowan Douglas, or otherwise using the available library resources at our disposal, such as the Bloomberg terminal.
+\section{Data}
+\label{sec:data}
 
-We plan to perform a back test on this past data to assess the efficacy of the diversification strategies based on the alternative risk measures we shall be investigating. This will be compared against the benchmark of the diversification strategy based on traditional MPT. If any similar investigations are found in the course of our research, further comparisons can be made.  The programming language used will be R.
-	
+We will have to collect historical equities' price data. We will be concentrating on the South African market. This will be obtained from industry with the help of our supervisor, Rowan Douglas, or otherwise using the available library resources at our disposal, such as the Bloomberg terminal.
+
+\section{Methodology}
+\label{sec:Method}
+
+First and foremost, we must devise diversification strategies using various alternative risk measures. We intend to focus on either three or four risk measures. Despite its flaws (discussed in section \ref{subsec:LitRevd} above) VaR has been identified as an important risk measure to consider, due to its prominent use in industry today. Expected Shortfall (ES) and downside deviance are other measures which are widely used and easily/intuitively understood, and should also be considered. Additionally, we want to take a closer look at one or two of either the spectral or coherent risk measures, as discussed by \cite{dowd2006after}.
+
+Risk budgeting (RB) is an alternative method to weight assets in a portfolio, and is a likely diversification strategy to be used given the alternative risk measures. Generally, assets are weighted according to market capitalisation. In this case, the weightings will be a function of risk \citep{bruder2012managing}. According to \cite{bruder2012managing}, RB can be applied to various risk measures, $\mathcal{R}$, provided:
+\bi
+\item $\mathcal{R}$ is convex
+\item $\mathcal{R}$ satisfies the Euler decomposition.
+\ei 
+Of course, this means that we will have to ensure that the risk measures are compatible with this diversification technique. Further research and readings will help in the specifics of using this approach, and may also bring other alternative diversification techniques to light.
+
+We plan to perform a back test on the collected past data to assess the efficacy of the diversification strategies based on the alternative risk measures we shall be investigating. This will be compared against a benchmark: namely the diversification strategy based on volatility as its risk measure. If any similar investigations are found in the course of our research, further comparisons can be made.  The programming language used will be R.
 
 \section{Paper Structure}
 \label{sec:struc}
@@ -176,9 +203,6 @@ This is a group project. Collaborative work allows for opportunities of synergy 
 \item \textbf{Friday, 7 September 2018:} Feedback for submitted draft. The next month will be used to improve our project, which will hopefully only require polishing.
 \item \textbf{Friday, 19 October 2018:} Submit final paper 
 \ei
-
-
-
 
 \newpage
 \bibliographystyle{natbib}

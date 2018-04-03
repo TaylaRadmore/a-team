@@ -1,0 +1,75 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{natbib}
+\usepackage[british]{babel}
+\usepackage{parskip}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+%Any global settings go here
+\graphicspath{{Figures/}}
+
+%some shortcut commands
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\be}{\begin{enumerate}}
+\newcommand{\ee}{\end{enumerate}}
+
+\begin{document}
+
+
+
+\begin{titlepage}
+
+\title{Investigating the effectiveness of diversification strategies based on alternative risk measures\\
+\line(1,0){250}\\
+\large Draft}
+
+\date{\today}
+
+\author{Richard Montgomery (MNTRIC006)\\
+Tayla Radmore (RDMTAY001)\\
+Thomas K{\"o}nigkr{\"a}mer (KNGTHO005)}
+
+\maketitle
+
+\begin{figure}
+
+\begin{center}
+\includegraphics[width=5cm]{UCTlogo.jpg}\\[1cm]
+\end{center}
+
+\end{figure}
+
+\begin{center}
+\line(1,0){150}\\
+{\tt mntric006@myuct.ac.za}\\
+{\tt rdmtay001@myuct.ac.za}\\
+{\tt thomasekng@gmail.com}
+
+
+keywords: Value-at-Risk, Expected Shortfall, Downside deviance, volatility, risk-budgeting, diversification.
+\end{center}
+
+\thispagestyle{empty}
+
+\end{titlepage}
+
+\pagenumbering{roman}
+
+\tableofcontents
+
+\newpage
+
+\pagenumbering{arabic}
+
+\citep{bruder2012managing}\\
+\cite{dowd2006after}
+
+
+\newpage
+\bibliographystyle{natbib}
+\bibliography{Bibliography}
+\label{bib:bibliography}
+
+\end{document}

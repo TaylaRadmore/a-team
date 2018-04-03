@@ -32,8 +32,44 @@
   pages    = {1505 - 1518},
   issn     = {0378-4266},
   doi      = {https://doi.org/10.1016/S0378-4266(02)00281-9},
+  file     = {:C\:/Users/Tayla Radmore/Documents/Research_Project/Potential_resources/Spectral_measures_of_risk_A_1-s2.0-S0378426602002819-main.pdf:PDF},
   keywords = {Expected shortfall, Risk measure, Value-at-risk, Conditional value-at-risk, Coherence, Quantile, Subadditivity},
   url      = {http://www.sciencedirect.com/science/article/pii/S0378426602002819},
+}
+
+@Article{CHEN20111179,
+  author   = {Hsuan-Chi Chen and San-Lin Chung and Keng-Yu Ho},
+  title    = {The diversification effects of volatility-related assets},
+  journal  = {Journal of Banking \& Finance},
+  year     = {2011},
+  volume   = {35},
+  number   = {5},
+  pages    = {1179 - 1189},
+  issn     = {0378-4266},
+  doi      = {https://doi.org/10.1016/j.jbankfin.2010.09.024},
+  file     = {The diversification effects of volatility-related assets:C\:/Users/thoma/Documents/GitHub/a-team/A-team/Thomas/ResourcesToAdd/Chen_et_al.pdf:PDF},
+  keywords = {Investment opportunity, Mean–variance analysis, VIX},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0378426610003742},
+}
+
+@Article{chow2011survey,
+  author    = {Chow, Tzee-man and Hsu, Jason and Kalesnik, Vitali and Little, Bryce},
+  title     = {A survey of alternative equity index strategies},
+  journal   = {Financial Analysts Journal},
+  year      = {2011},
+  volume    = {67},
+  number    = {5},
+  pages     = {37--57},
+  file      = {A Survey of Alternative Equity Index Strategies (i.e. diversification methods that we can use):C\:/Users/thoma/Documents/GitHub/a-team/A-team/Thomas/ResourcesToAdd/Chow_et_all2011.pdf:PDF},
+  publisher = {CFA Institute},
+}
+
+@Article{consiglirisk,
+  author    = {Consigli, Giorgio},
+  title     = {Risk Measures for the 21st Century Giorgio Szeg{\"o} Ed John Wiley and Sons Pbl (2004) Wiley Finance},
+  year      = {2004},
+  file      = {Risk measures and diversification (VaR):C\:/Users/thoma/Documents/GitHub/a-team/A-team/Thomas/ResourcesToAdd/Risk_Measures_for_the_21st_Century_2004.pdf:PDF},
+  publisher = {Citeseer},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

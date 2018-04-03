@@ -1,16 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.3)  3 APR 2018 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.6)  3 APR 2018 16:21
 entering extended mode
 **./Proposal.tex
 (Proposal.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\artic
-le.cls"
+Babel <3.12> and hyphenation patterns for 76 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size1
-2.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -25,90 +21,75 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\nat
-bib.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count87
 )
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\ba
-bel.sty"
-Package: babel 2018/02/14 3.18 The Babel package
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2017/06/29 3.12 The Babel package
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\sw
-itch.def"
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2017/06/29 3.12 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblo
-pts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-engl
-ish\british.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\british.ldf"
 Language: british 2017/06/06 v3.3r English support from the babel system
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-engl
-ish\english.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\ba
-bel.def"
-File: babel.def 2018/02/14 3.18 Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2017/06/29 3.12 Babel common definitions
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2017/06/29 3.12 Babel switching mechanism
+)
 \babel@savecnt=\count88
 \U@D=\dimen103
-
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\tx
-tbabel.def")
-\bbl@dirlevel=\count89
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )))
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\pa
-rskip.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\am
-smath.sty"
-Package: amsmath 2017/09/02 v2.17a AMS math features
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\am
-stext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\am
-sgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen104
 ))
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\am
-sbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\am
-sopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count90
+\inf@bad=\count89
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count91
-\leftroot@=\count92
+\uproot@=\count90
+\leftroot@=\count91
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count93
-\DOTSCASE@=\count94
+\classnum@=\count92
+\DOTSCASE@=\count93
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -117,15 +98,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen106
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count95
-\c@MaxMatrixCols=\count96
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
 \dotsspace@=\muskip10
-\c@parentequation=\count97
-\dspbrk@lvl=\count98
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
 \tag@help=\toks15
-\row@=\count99
-\column@=\count100
-\maxfields@=\count101
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
 \andhelp@=\toks16
 \eqnshift@=\dimen107
 \alignsep@=\dimen108
@@ -140,47 +121,38 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\g
-raphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\k
-eyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\g
-raphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\t
-rig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-c
-fg\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-d
-ef\pdftex.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\h
-yperref.sty"
-Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\hobsub-hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\hobsub-generic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -198,7 +170,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -220,115 +192,107 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\
-ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\a
-uxhook.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\k
-voptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen115
-\Hy@linkcounter=\count102
-\Hy@pagecounter=\count103
+\Hy@linkcounter=\count101
+\Hy@pagecounter=\count102
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\p
-d1enc.def"
-File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count104
+\Hy@SavedSpaceFactor=\count103
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\h
-yperref.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4509.
-Package hyperref Info: Link nesting OFF on input line 4514.
-Package hyperref Info: Hyper index ON on input line 4517.
-Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count105
- ("C:\Program Files\MiKTeX 2.9\tex/latex\url\url.sty"
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count104
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5115.
+LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen116
-\Fld@menulength=\count106
+\Fld@menulength=\count105
 \Field@Width=\dimen117
 \Fld@charsize=\dimen118
-Package hyperref Info: Hyper figures OFF on input line 6369.
-Package hyperref Info: Link nesting OFF on input line 6374.
-Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring OFF on input line 6389.
-Package hyperref Info: Link coloring with OCG OFF on input line 6394.
-Package hyperref Info: PDF/A mode OFF on input line 6399.
-LaTeX Info: Redefining \ref on input line 6439.
-LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count107
-\c@Item=\count108
-\c@Hfootnote=\count109
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count106
+\c@Item=\count107
+\c@Hfootnote=\count108
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\h
-pdftex.def"
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count110
-\c@bookmark@seq@number=\count111
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\r
-erunfilecheck.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count109
+\c@bookmark@seq@number=\count110
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip48
-) (Proposal.aux)
+)
+(Proposal.aux)
 \openout1 = `Proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
+\scratchcounter=\count111
 \scratchdimen=\dimen119
 \scratchbox=\box28
-\nofMPsegments=\count113
-\nofMParguments=\count114
+\nofMPsegments=\count112
+\nofMParguments=\count113
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count115
+\MPscratchCnt=\count114
 \MPscratchDim=\dimen120
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
 \everyMPtoPDFconversion=\toks21
-)
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\e
-pstopdf-base.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\g
-rfext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -339,35 +303,35 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 24.
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\n
-ameref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\gettitlestring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count118
+\c@section@level=\count117
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
- (Proposal.out) (Proposal.out)
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
+
+(Proposal.out) (Proposal.out)
 \@outlinefile=\write3
 \openout3 = `Proposal.out'.
 
-<Figures/UCTlogo.jpg, id=39, 171.5208pt x 173.9298pt>
+<Figures/UCTlogo.jpg, id=43, 171.5208pt x 173.9298pt>
 File: Figures/UCTlogo.jpg Graphic file (type jpg)
 <use Figures/UCTlogo.jpg>
-Package pdftex.def Info: Figures/UCTlogo.jpg  used on input line 39.
-(pdftex.def)             Requested size: 142.26378pt x 144.26349pt.
+Package pdftex.def Info: Figures/UCTlogo.jpg  used on input line 43. on input l
+ine 43.
+Package pdftex.def Info: Requested size: 85.35826pt x 86.55862pt on input line 
+43.
  [1
 
-{C:/Users/Tayla Radmore/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./F
-igures/UCTlogo.jpg>]
-(Proposal.toc)
+{C:/Users/thoma/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/U
+CTlogo.jpg>] (Proposal.toc)
 \tf@toc=\write4
 \openout4 = `Proposal.toc'.
 
@@ -375,46 +339,43 @@ igures/UCTlogo.jpg>]
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.97 \item
-           [1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 97.
-
-("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscm
-r.fd"
+l.90 
+      [1]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 97.
- [2] [3] [4] (Proposal.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
+ [2] [3]
+[4] [5] [6] (Proposal.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
  (Proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
 Package rerunfilecheck Info: File `Proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 14BA459D4E81E06A2EB296B29BC2F401;493.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+(rerunfilecheck)             Checksum: B5E93CE467E732D6ABBD115F589D749B;524.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 6535 strings out of 493323
- 95955 string characters out of 3139040
- 189489 words of memory out of 3000000
- 9973 multiletter control sequences out of 15000+200000
+ 6487 strings out of 493314
+ 92456 string characters out of 3138868
+ 187247 words of memory out of 3000000
+ 9931 multiletter control sequences out of 15000+200000
  10449 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,6n,28p,1035b,440s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Tayla Radmore/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><C:/Users/Tayla Radmore/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tayla Radmore/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Tayla 
-Radmore/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Users/Tayla Radmore/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmti12.pfb><C:/Users/Tayla Radmore/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Proposal.pdf (7 pages, 164824 bytes).
+ 28i,6n,28p,1034b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmtt12.pfb>
+Output written on Proposal.pdf (9 pages, 169555 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

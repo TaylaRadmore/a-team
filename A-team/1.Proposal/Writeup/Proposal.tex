@@ -81,22 +81,62 @@ This research is important, because the use of volatility as a risk measure has 
 \section{Literature Review}
 \label{sec:LitRev}
 
+<<<<<<< HEAD:A-team/Proposal/Writeup/Proposal.tex
+\subsection{Major Literature}
+\label{subsec:MajLit}
+To date some quantile-based risk measures have been looked into. Namely "Value-at-Risk (VaR), coherent risk measures, spectral risk measures, and distortion risk measures" \citep{dowd2006after}.
+=======
 \subsection{Literature Reviewed}
+<<<<<<< HEAD
 \label{subsec:LitRevd}	
+=======
+\label{subsec:LitRevd}
+>>>>>>> 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Proposal/Writeup/Proposal.tex
+>>>>>>> ea72a2b81f1f745319eb2bf92bd40d8019f31b20
 
 To date some quantile-based risk measures have been looked into. Namely "Value-at-Risk (VaR), coherent risk measures, spectral risk measures, and distortion risk measures" \citep{dowd2006after}.
 
-\cite{dowd2006after} believe that VaR is an imperfect measure. It may well still be reasonable to look into VaR as it is a well known measure and is not particularly complicated for someone in the relevant field of work to understand. Looking further into VaR, \cite{dowd2006after} feel that there are some positive aspects. Namely that VaR can be used to compare portfolios that are not restricted to a certain type of asset; VaR takes into account the portfolios internal correlations in turn allowing a consideration of number of variables changing at once and lastly it's result is easy to understand and has a linked probability.  \cite{dowd2006after} believe a significant limitation of VaR is that it gives no information about what happens if that worst case lower tail end occurs and they feel that this makes this particular measure a poor measure to be used as a risk target measure. \cite{ACERBI20021505} believe VaR is not a good measure because it does not meet the axioms of coherence.
+<<<<<<< HEAD:A-team/Proposal/Writeup/Proposal.tex
+The next group of risk measures looked into were coherent risk measures and in particular Expected Shortfall \citep{ACERBI20021505}. \cite{dowd2006after} feel that this is still a measure that is easy to generate. They do, however, draw attention to the fact that this particular measure suggests the investor is risk-neutral past that lower tail, this may be seen as problematic. Expected Shortfall will ideally be looked into in much greater detain before starting back-testing.
 
-It is worth mentioning that \cite{dowd2006after} state in their paper that with regards to risk measures it may often be a case of the best measure for a particular application and not a case of their being a certain risk measure that is better than all the others.  
+This progressed to looking into spectral risk measures as these measures align with coherence and risk aversion theory \citep{dowd2006after}. Here \cite{dowd2006after} highlight a number of issues with risk aversion theory, which will not be expanded on at this point but it is worthwhile to keep in mind that risk aversion theory is not a perfect or universally accepted idea. Ideally spectral risk measures will be looked into in much greater detail going forward.
+
+Lastly Distortion measures were briefly looked into, in particular the Wang Transform and a generalisation of it  \citep{dowd2006after}. \cite{dowd2006after} believed that a strength of this measure is its ability to recover the Capital Asset Pricing Model as well as Black-Scholes and that it is a superior measure compared to expected shortfall.
+ 
+It is worth mentioning that \cite{dowd2006after} state in their paper that with regards to risk measures it may often be a case of the best measure for a particular application and not a case of there being a certain risk measure that is better than all the others. 
+=======
+\cite{dowd2006after} believe that VaR is an imperfect measure. It may well still be reasonable to look into VaR as it is a well known measure and is not particularly complicated for someone in the relevant field of work to understand. Looking further into VaR, \cite{dowd2006after} feel that there are some positive aspects. Namely that VaR can be used to compare portfolios that are not restricted to a certain type of asset; VaR takes into account the portfolios internal correlations in turn allowing a consideration of number of variables changing at once and lastly it's result is easy to understand and has a linked probability.  \cite{dowd2006after} believe a significant limitation of VaR is that it gives no information about what happens if that worst case lower tail end occurs and they feel that this makes this particular measure a poor measure to be used as a risk target measure. \cite{ACERBI20021505} believe VaR is not a good measure because it does not meet the axioms of coherence.
+>>>>>>> 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Proposal/Writeup/Proposal.tex
+
+A justification for replacing VaR with one of these other measures provided by \cite{dowd2006after} is that it would require very little extra work. 
 
 \subsection{Further Reading}
 \label{subsec:FurRead}
 
+<<<<<<< HEAD:A-team/Proposal/Writeup/Proposal.tex
+In addition to the works discussed, further ideas should be looked into. Firstly looking at other risk measures that could be used as well as looking into the previously mentioned measures further. Secondly investigating methods to use these risk measures to diversify a portfolio. 
+
+\cite{dowd2006after} mentioned a number of other risk measures, that may be worthwhile to look into briefly. If some generate any interest they can be looked into further and perhaps added to this paper. These measures were:
+=======
 In addition to the major works discussed, we plan to consult the following supplementary readings:
+>>>>>>> 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Proposal/Writeup/Proposal.tex
 \bi
-\item
-\item
+\item Convex risk measures
+\item Dynamic risk measures
+\item Comonotonicity approaches
+\item Markov bounds approaches
+\item “Best practices” risk measures
+\ei
+ 
+ "Best practice" risk measures may be particularly interesting to look into during the literature review stage as they focus on the idea that the context of the problem may be the most important element \citep{dowd2006after}; however; this would be something extremely difficult and time consuming to back-test and may therefore be beyond the scope of this particular paper.
+
+A particular paper that is worth drawing attention to is Conditional Value-at-Risk, spectral risk measures and
+(non-)diversification in portfolio selection problems - A comparison with mean–variance analysis by Mario Brandtner. This appears to be a particularly useful paper as it may well be following a similar structure as the paper being proposed
+
+Some further papers that may aid this process are: 
+\bi
+\item 
+\item 
 \item
 \ei
 

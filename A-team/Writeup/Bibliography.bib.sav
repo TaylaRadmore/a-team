@@ -1,0 +1,28 @@
+% Encoding: UTF-8
+
+@Article{bruder2012managing,
+  author        = {Bruder, Benjamin and Roncalli, Thierry},
+  title         = {Managing risk exposures using the risk budgeting approach},
+  year          = {2012},
+  __markedentry = {[thoma:]},
+  file          = {Diversification - risk bucketing (core reading):C\:/Users/thoma/Documents/School/2018/Quants Project/Bruder_Roncalli_2012.pdf:PDF},
+  keywords      = {rank5},
+}
+
+@Article{dowd2006after,
+  author    = {Dowd, Kevin and Blake, David},
+  title     = {After VaR: the theory, estimation, and insurance applications of quantile-based risk measures},
+  journal   = {Journal of Risk and Insurance},
+  year      = {2006},
+  volume    = {73},
+  number    = {2},
+  pages     = {193--229},
+  file      = {Risk measures - QBRM, VaR, coherent RMs, etc. (Core reading - with Tayla's many highlights):C\:/Users/thoma/Documents/School/2018/Quants Project/Dowd_et_al-2006-Journal_of_Risk_and_Insurance.pdf:PDF},
+  keywords  = {rank5},
+  publisher = {Wiley Online Library},
+}
+
+@Article{,
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

@@ -7,5 +7,5 @@
 \contentsline {section}{\numberline {4}Data}{2}{section.4}
 \contentsline {section}{\numberline {5}Methodology}{3}{section.5}
 \contentsline {section}{\numberline {6}Paper Structure}{4}{section.6}
-\contentsline {section}{\numberline {7}Division of Work}{4}{section.7}
+\contentsline {section}{\numberline {7}Division of Work}{5}{section.7}
 \contentsline {section}{\numberline {8}Time-line}{5}{section.8}

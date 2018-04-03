@@ -82,7 +82,7 @@ This research is important, because the use of volatility as a risk measure has 
 \label{sec:LitRev}
 
 \subsection{Literature Reviewed}
-\label{subsec:LitRevd}
+\label{subsec:LitRevd}	
 
 To date some quantile-based risk measures have been looked into. Namely "Value-at-Risk (VaR), coherent risk measures, spectral risk measures, and distortion risk measures" \citep{dowd2006after}.
 
@@ -103,14 +103,14 @@ In addition to the major works discussed, we plan to consult the following suppl
 \section{Data}
 \label{sec:data}
 
-We will have to collect historical equities' price data. We will be concentrating on the South African market. This will be obtained from industry with the help of our supervisor, Rowan Douglas, or otherwise using the available library resources at our disposal, such as the Bloomberg terminal.
+We will have to collect historical equities' price data. We will be concentrating on the South African market. This will be obtained from industry with the help of our supervisor, Rowan Douglas, or otherwise using the available library resources at our disposal, such as the Bloomberg terminal. Fortunately, this data is not difficult to obtain.
 
 \section{Methodology}
 \label{sec:Method}
 
-First and foremost, we must devise diversification strategies using various alternative risk measures. We intend to focus on either three or four risk measures. Despite its flaws (discussed in section \ref{subsec:LitRevd} above) VaR has been identified as an important risk measure to consider, due to its prominent use in industry today. Expected Shortfall (ES) and downside deviance are other measures which are widely used and easily/intuitively understood, and should also be considered. Additionally, we want to take a closer look at one or two of either the spectral or coherent risk measures, as discussed by \cite{dowd2006after}.
+First and foremost, we must devise diversification strategies using various alternative risk measures. We intend to focus on either three or four risk measures. Despite its flaws (discussed in section \ref{subsec:LitRevd} above) VaR has been identified as an important risk measure to consider, due to its prominent use in industry today \citep{consiglirisk}. Expected Shortfall (ES) and downside deviance are other measures which are widely used and easily/intuitively understood, and should also be considered. Additionally, we want to take a closer look at one or two of either the spectral or coherent risk measures, as discussed by \cite{dowd2006after}.
 
-Risk budgeting (RB) is an alternative method to weight assets in a portfolio, and is a likely diversification strategy to be used given the alternative risk measures. Generally, assets are weighted according to market capitalisation. In this case, the weightings will be a function of risk \citep{bruder2012managing}. According to \cite{bruder2012managing}, RB can be applied to various risk measures, $\mathcal{R}$, provided:
+Risk budgeting (RB) is an alternative method to weight assets in a portfolio, and is a likely diversification strategy to be used given the alternative risk measures. Generally, assets are weighted according to market capitalisation. For the case of RB, the weightings will be a function of risk \citep{bruder2012managing}. According to \cite{bruder2012managing}, RB can be applied to various risk measures, $\mathcal{R}$, provided:
 \bi
 \item $\mathcal{R}$ is convex
 \item $\mathcal{R}$ satisfies the Euler decomposition.
@@ -151,9 +151,9 @@ This is a group project. Collaborative work allows for opportunities of synergy 
 \item \textbf{Friday, 11 May 2018:} Submit literature review
 \item \textbf{Pre-June Exams:} Utilise this time to:
 	\bi
-	\item Collect the necessary data
+	\item Collect the necessary stocks' data
 	\item Start work on the diversification methods to be used
-	\item Possibly perform a back test, using the historical data, for the traditional MPT strategy. This result will be used as a benchmark against which the other strategies will be compared. 
+	\item Possibly perform a back test, using the historical data, for the diversification strategy using volatility as its benchmark. This result will be used as a benchmark against which the other strategies will be compared. 
 	\ei
 \item \textbf{June/July Vac:} Utilise this time to:
 	\bi

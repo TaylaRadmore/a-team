@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.3)  3 APR 2018 17:37
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.6)  3 APR 2018 17:26
-=======
-<<<<<<< HEAD:A-team/Proposal/Writeup/Proposal.log
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.3)  3 APR 2018 17:19
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.6)  3 APR 2018 16:21
->>>>>>> 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Proposal/Writeup/Proposal.log
->>>>>>> ea72a2b81f1f745319eb2bf92bd40d8019f31b20
->>>>>>> 1fd02e09deabc46e4e9148dd31d7cf251effc7aa
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.3)  3 APR 2018 17:42
 entering extended mode
 **./Proposal.tex
 (Proposal.tex
@@ -303,41 +291,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip48
-) (Proposal.aux
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 <
-      <<<<<< HEAD:A-team/Proposal/Writeup/Proposal.aux
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Label `subsec:FurRead' multiply defined.
-
-
-LaTeX Warning: Label `sec:Method' multiply defined.
-
-
-LaTeX Warning: Label `sec:struc' multiply defined.
-
-
-LaTeX Warning: Label `sec:dow' multiply defined.
-
-
-LaTeX Warning: Label `sec:time' multiply defined.
-
-
-Package natbib Warning: Citation `dowd2006after' multiply defined.
-
-
-LaTeX Warning: Label `bib:bibliography' multiply defined.
-
-)
+) (Proposal.aux)
 \openout1 = `Proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -354,30 +308,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-Overfull \hbox (59.87729pt too wide) in paragraph at lines 28--13
-\OT1/cmr/m/n/12 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Proposal/Writ
-eup/Proposal.aux
- []
 
-
-Overfull \hbox (101.32825pt too wide) in paragraph at lines 28--13
-\OT1/cmr/m/n/12 >>>>>>> 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Propo
-sal/Writeup/Proposal.aux
- []
-
-
-Overfull \hbox (19.70302pt too wide) in paragraph at lines 28--13
-\OT1/cmr/m/n/12 <<<<<<< HEAD   =======  <<<<<<< HEAD:A-team/Proposal/Writeup/Pr
-oposal.aux
- []
-
-
-Overfull \hbox (59.87729pt too wide) in paragraph at lines 28--13
-\OT1/cmr/m/n/12 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Proposal/Writ
-eup/Proposal.aux
- []
-
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen119
@@ -426,103 +358,26 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write3
 \openout3 = `Proposal.out'.
 
- [1
-
-{C:/Users/Tayla Radmore/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<Figures/UCTlogo.jpg, id=49, 171.5208pt x 173.9298pt>
+<Figures/UCTlogo.jpg, id=39, 171.5208pt x 173.9298pt>
 File: Figures/UCTlogo.jpg Graphic file (type jpg)
 <use Figures/UCTlogo.jpg>
 Package pdftex.def Info: Figures/UCTlogo.jpg  used on input line 43.
 (pdftex.def)             Requested size: 85.35826pt x 86.55862pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.57 \end{titlepage}
-                     [1 <./Figures/UCTlogo.jpg>] (Proposal.toc
+ [1
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...rline {4}Methodology \& Data}{3}{section.4}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...rline {4}Methodology \& Data}{3}{section.4}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...ection}{\numberline {4}Data}{2}{section.4}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...ection}{\numberline {4}Data}{2}{section.4}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
+{C:/Users/Tayla Radmore/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./F
+igures/UCTlogo.jpg>]
+(Proposal.toc)
 \tf@toc=\write4
 \openout4 = `Proposal.toc'.
 
-
-Overfull \hbox (98.71716pt too wide) in paragraph at lines 18--62
-[]\OT1/cmr/m/n/12 >>>>>>> 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Pro
-posal/Writeup/Proposal.toc 
- []
-
-[1]
-Overfull \hbox (98.71716pt too wide) in paragraph at lines 91--92
-\OT1/cmr/m/n/12 >>>>>>> 9341d1b0f8f0d3565d98c1c22a44f99117544ce8:A-team/1.Propo
-sal/Writeup/Proposal.tex 
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+ [1]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) 
+has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 
+l.89 
       [1] [2]
-Overfull \hbox (2.48207pt too wide) in paragraph at lines 112--114
-\OT1/cmr/m/n/12 <<<<<<< HEAD:A-team/Proposal/Writeup/Proposal.tex In ad-di-tion
- to the works
- []
-
-
-Overfull \hbox (71.96187pt too wide) in paragraph at lines 115--119
-\OT1/cmr/m/n/12 fol-low-ing sup-ple-ment-ary read-ings: >>>>>>> 9341d1b0f8f0d35
-65d98c1c22a44f99117544ce8:A-
- []
-
-[3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 120.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 107.
 
 
 ("C:\Users\Tayla Radmore\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscm
@@ -530,53 +385,45 @@ r.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
+ [3]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [4] [5] [6] [7] [8] (Proposal.bbl)
-
-Package natbib Warning: There were multiply defined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
-[9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
- (Proposal.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
 
 
-Package rerunfilecheck Warning: File `Proposal.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Reference `subsec:LitRevd' on page 4 undefined on input line 129
+.
 
-Package rerunfilecheck Info: Checksums for `Proposal.out':
-(rerunfilecheck)             Before: 2A04736BC264AC0D8EA178A223646AFC;521
-(rerunfilecheck)             After:  397F27BCAE53F500E9E1860A819DBB54;591.
+[4] [5] [6] [7] [8] (Proposal.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+ (Proposal.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package rerunfilecheck Info: File `Proposal.out' has not changed.
+(rerunfilecheck)             Checksum: 97F75BA2E609D8740C69D2D012A592D8;480.
 
-LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
  ) 
 Here is how much of TeX's memory you used:
- 6547 strings out of 493323
- 96100 string characters out of 3139040
- 191169 words of memory out of 3000000
- 9978 multiletter control sequences out of 15000+200000
+ 6543 strings out of 493323
+ 96056 string characters out of 3139040
+ 189516 words of memory out of 3000000
+ 9976 multiletter control sequences out of 15000+200000
  10449 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,6n,28p,1034b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,6n,28p,1035b,405s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Tayla Radmore/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Users/Tayla Radmore/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tayla Radmore/AppData/Loca
@@ -585,56 +432,9 @@ Radmore/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><C:/Users/Tayla Radmore/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb><C:/Users/Tayla Radmore/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-<<<<<<< HEAD
-Output written on Proposal.pdf (12 pages, 180900 bytes).
+Output written on Proposal.pdf (11 pages, 176709 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
-=======
-Output written on Proposal.pdf (8 pages, 170604 bytes).
-PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 184 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-l.90 
-      [1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
- [2] [3]
-[4] [5] [6] (Proposal.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
- (Proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
-Package rerunfilecheck Info: File `Proposal.out' has not changed.
-(rerunfilecheck)             Checksum: B5E93CE467E732D6ABBD115F589D749B;524.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
- ) 
-Here is how much of TeX's memory you used:
- 6491 strings out of 493314
- 92533 string characters out of 3138868
- 187282 words of memory out of 3000000
- 9934 multiletter control sequences out of 15000+200000
- 10449 words of font info for 38 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 28i,6n,28p,1034b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmtt12.pfb>
-Output written on Proposal.pdf (9 pages, 170340 bytes).
-PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
->>>>>>> 1fd02e09deabc46e4e9148dd31d7cf251effc7aa
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -81,11 +81,12 @@ This research is important, because the use of volatility as a risk measure has 
 \section{Literature Review}
 \label{sec:LitRev}
 
-\subsection{Major Literature}
-\label{subsec:MajLit}
+\subsection{Core Literature}
+\label{subsec:CorLit}
+
 To date some quantile-based risk measures have been looked into. Namely "Value-at-Risk (VaR), coherent risk measures, spectral risk measures, and distortion risk measures" \citep{dowd2006after}.
 
- \cite{dowd2006after} believe that VaR is an imperfect measure. It may well still be reasonable to look into VaR as it is a well known measure and is not particularly complicated for someone in the relevant field of work to understand. Looking further into VaR, \cite{dowd2006after} feel that there are some positive aspects. Namely that VaR can be used to compare portfolios that are not restricted to a certain type of asset; VaR takes into account the portfolios internal correlations in turn allowing a consideration of number of variables changing at once and lastly it's result is easy to understand and has a linked probability.  \cite{dowd2006after} believe a significant limitation of VaR is that it gives no information about what happens if that worst case lower tail end occurs and they feel that this makes this particular measure a poor measure to be used as a risk target measure. \cite{ACERBI20021505} believe VaR is not a good measure because it does not meet the axioms of coherence.
+\cite{dowd2006after} believe that VaR is an imperfect measure. It may well still be reasonable to look into VaR as it is a well known measure and is not particularly complicated for someone in the relevant field of work to understand. Looking further into VaR, \cite{dowd2006after} feel that there are some positive aspects. Namely that VaR can be used to compare portfolios that are not restricted to a certain type of asset; VaR takes into account the portfolios internal correlations in turn allowing a consideration of number of variables changing at once and lastly it's result is easy to understand and has a linked probability.  \cite{dowd2006after} believe a significant limitation of VaR is that it gives no information about what happens if that worst case lower tail end occurs and they feel that this makes this particular measure a poor measure to be used as a risk target measure. \cite{ACERBI20021505} believe VaR is not a good measure because it does not meet the axioms of coherence.
 
 The next group of risk measures looked into were coherent risk measures and in particular Expected Shortfall \citep{ACERBI20021505}. \cite{dowd2006after} feel that this is still a measure that is easy to generate. They do, however, draw attention to the fact that this particular measure suggests the investor is risk-neutral past that lower tail, this may be seen as problematic. Expected Shortfall will ideally be looked into in much greater detain before starting back-testing.
 
@@ -100,9 +101,9 @@ A justification for replacing VaR with one of these other measures provided by \
 \subsection{Further Reading}
 \label{subsec:FurRead}
 
-In addition to the works discussed, further ideas should be looked into. Firstly looking at other risk measures that could be used as well as looking into the previously mentioned measures further. Secondly investigating methods to use these risk measures to diversify a portfolio. 
+In addition to the works discussed, further ideas should be explored. Firstly, this includes delving into the aforementioned risk measures more deeply. Perhaps the use of other risk measures should be considered as well. Secondly, diversification methods to be used will have to be investigated more comprehensively. This, again, will either entail expanding on our understanding of RB diversification methods, or either discovering other viable methods. 
 
-\cite{dowd2006after} mentioned a number of other risk measures, that may be worthwhile to look into briefly. If some generate any interest they can be looked into further and perhaps added to this paper. These measures were:
+\cite{dowd2006after} mentioned a number of other risk measures. Thus, they have provided us with a list of other possible risk measures which may be worthwhile to study more deeply:
 
 \bi
 \item Convex risk measures
@@ -112,37 +113,36 @@ In addition to the works discussed, further ideas should be looked into. Firstly
 \item “Best practices” risk measures
 \ei
  
- "Best practice" risk measures may be particularly interesting to look into during the literature review stage as they focus on the idea that the context of the problem may be the most important element \citep{dowd2006after}; however; this would be something extremely difficult and time consuming to back-test and may therefore be beyond the scope of this particular paper.
+``Best practice'' risk measures (which were also mentioned in section \ref{subsec:CorLit} above) may be particularly interesting to look into during the literature review of this paper. These risk measures focus on the idea that the context of the problem may be the most important factor to consider \citep{dowd2006after}. This may, however, be beyond the scope our research question.
 
-A particular paper that is worth drawing attention to is Conditional Value-at-Risk, spectral risk measures and
-(non-)diversification in portfolio selection problems - A comparison with mean–variance analysis by Mario Brandtner. This appears to be a particularly useful paper as it may well be following a similar structure as the paper being proposed
+A particular paper that is worth drawing attention to is  \textit{Conditional Value-at-Risk, spectral risk measures and (non-)diversification in portfolio selection problems - A comparison with mean–variance analysis}, by Mario Brandtner (2013). This paper is useful in that it seems to have a similar approach to what we have in mind.
 
-Some further papers that may aid this process are: 
+Further useful readings which we may to consult include: 
 \bi
-\item  The Properties of Equally Weighted Risk Contributions Portfolios by Maillard S., Roncalli T. and Teiletche J. 
-\item Toward Maximum Diversification by Choueifaty Y. and Coignard Y.
-\item Coherent Measures of Risk by Artzner, P., F. Delbaen, J.-M. Eber, and D. Heath
-\item Coherent Representations of Subjective Risk Aversion by Acerbi, C. 
-\item  On Law Invariant Coherent Risk Measures by Kusuoka, S.
-\item  Optimal Rules for Ordering Uncertain Prospects by Bawa, V. S.
-\item Mean-Risk Analysis With Risk Associated With Below-Target Returns by Fishburn, P. C.
-\item  A Class of Distortion Operators for Pricing Financial and Insurance Risks by Wang, S. S.
-\item  Assessing VaR Accuracy by Dowd, K.
-\item  Measuring Market Risk by Dowd, K. 
-\item Bayesian Value at Risk: From Linear to Non-Linear Portfolios by Siu, T. K., H. Tong, and H. Yang
+\item  \textit{The Properties of Equally Weighted Risk Contributions Portfolios}, by Maillard S., Roncalli T. and Teiletche J. 
+\item \textit{Toward Maximum Diversification}, by Choueifaty Y. and Coignard Y.
+\item \textit{Risk Budgeting: A New Approach to Investing}, by Rahl L.
+\item \textit{Active Portfolio Management: A Quantitative Approach for Producing Superior Returns and Controlling Risk}, by Grinold R. and Kahn R.
+\item \textit{Risk and Asset Allocation}, by Meucci A.
+\item \textit{Challenges and standards in integrating surveys of structural variation.}, by Scherer S.W. et al.
+\item \textit{The Markowitz Optimization Enigma: Is ‘Optimized’ Optimal?}, by Michaud R.O.
+\item \textit{Coherent Measures of Risk}, by Artzner P. et al.
+\item \textit{Coherent Representations of Subjective Risk Aversion}, by Acerbi C. 
+\item  \textit{On Law Invariant Coherent Risk Measures}, by Kusuoka S.
+\item  \textit{Optimal Rules for Ordering Uncertain Prospects}, by Bawa V.S.
+\item \textit{Mean-Risk Analysis With Risk Associated With Below-Target Returns}, by Fishburn P.C.
+\item  \textit{A Class of Distortion Operators for Pricing Financial and Insurance Risks}, by Wang S.S.
+\item  \textit{Assessing VaR Accuracy}, by Dowd K.
+\item  \textit{Measuring Market Risk}, by Dowd K. 
+\item \textit{Bayesian Value at Risk: From Linear to Non-Linear Portfolios}, by Siu T.K. et al.
 \ei
 
 \section{Methodology}
 \label{sec:Method}
 
-First and foremost, we must devise diversification strategies using various alternative risk measures. We intend to focus on either three or four risk measures. Despite its flaws (discussed in section \ref{subsec:LitRevd} above) VaR has been identified as an important risk measure to consider, due to its prominent use in industry today \citep{consiglirisk}. Expected Shortfall (ES) and downside deviance are other measures which are widely used and easily/intuitively understood, and should also be considered. Additionally, we want to take a closer look at one or two of either the spectral or coherent risk measures, as discussed by \cite{dowd2006after}.
+First and foremost, we must devise diversification strategies using various alternative risk measures. We intend to focus on either three or four risk measures. Despite its flaws (discussed in section \ref{subsec:CorLit} above) VaR has been identified as an important risk measure to consider, due to its prominent use in industry today \citep{consiglirisk}. Since ES uses similar workings to VaR, it may be easy to include this risk measure in our research as well. Additionally, we would like to look more deeply into at least one other risk measure which seems unusual, yet useful and efficient, to us.
 
-Risk budgeting (RB) is an alternative method to weight assets in a portfolio, and is a likely diversification strategy to be used given the alternative risk measures. Generally, assets are weighted according to market capitalisation. For the case of RB, the weightings will be a function of risk \citep{bruder2012managing}. According to \cite{bruder2012managing}, RB can be applied to various risk measures, $\mathcal{R}$, provided:
-\bi
-\item $\mathcal{R}$ is convex
-\item $\mathcal{R}$ satisfies the Euler decomposition.
-\ei 
-Of course, this means that we will have to ensure that the risk measures are compatible with this diversification technique. Further research and readings will help in the specifics of using this approach, and may also bring other alternative diversification techniques to light.
+Given our current level of research, the RB diversification method seems to be the most feasible diversification method at our disposal. Of course, this means that we will have to ensure that the risk measures we use are compatible with this diversification technique (i.e. that they are convex and satisfy the Euler decomposition \citep{bruder2012managing}). Further research and readings will help in the specifics of using this approach, and may also bring other alternative diversification techniques to light.
 
 We plan to perform a back test on the collected past data to assess the efficacy of the diversification strategies based on the alternative risk measures we shall be investigating. This will be compared against a benchmark: namely the diversification strategy based on volatility as its risk measure. If any similar investigations are found in the course of our research, further comparisons can be made.  The programming language used will be R.
 

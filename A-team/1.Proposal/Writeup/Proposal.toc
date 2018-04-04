@@ -1,0 +1,10 @@
+\babel@toc {british}{}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Research Question}{1}{section.2}
+\contentsline {section}{\numberline {3}Literature Review}{1}{section.3}
+\contentsline {subsection}{\numberline {3.1}Major Literature}{1}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Further Reading}{3}{subsection.3.2}
+\contentsline {section}{\numberline {4}Methodology}{5}{section.4}
+\contentsline {section}{\numberline {5}Paper Structure}{6}{section.5}
+\contentsline {section}{\numberline {6}Division of Work}{7}{section.6}
+\contentsline {section}{\numberline {7}Time-line}{7}{section.7}

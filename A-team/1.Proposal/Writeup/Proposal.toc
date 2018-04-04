@@ -3,8 +3,8 @@
 \contentsline {section}{\numberline {2}Research Question}{1}{section.2}
 \contentsline {section}{\numberline {3}Literature Review}{1}{section.3}
 \contentsline {subsection}{\numberline {3.1}Core Literature}{1}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Further Reading}{3}{subsection.3.2}
-\contentsline {section}{\numberline {4}Methodology}{5}{section.4}
-\contentsline {section}{\numberline {5}Paper Structure}{6}{section.5}
-\contentsline {section}{\numberline {6}Division of Work}{7}{section.6}
-\contentsline {section}{\numberline {7}Time-line}{7}{section.7}
+\contentsline {subsection}{\numberline {3.2}Further Reading}{4}{subsection.3.2}
+\contentsline {section}{\numberline {4}Methodology}{6}{section.4}
+\contentsline {section}{\numberline {5}Paper Structure}{7}{section.5}
+\contentsline {section}{\numberline {6}Division of Work}{8}{section.6}
+\contentsline {section}{\numberline {7}Time-line}{8}{section.7}

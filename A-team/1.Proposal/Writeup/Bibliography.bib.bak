@@ -73,16 +73,4 @@
   publisher = {Citeseer},
 }
 
-@Article{dhaene2003economic,
-  author    = {Dhaene, Jan and Goovaerts, Mark J and Kaas, Rob},
-  title     = {Economic capital allocation derived from risk measures},
-  journal   = {North American Actuarial Journal},
-  year      = {2003},
-  volume    = {7},
-  number    = {2},
-  pages     = {44--56},
-  file      = {Mentioned in Dowd - "best practices" risk measures:C\:/Users/thoma/Documents/GitHub/a-team/A-team/Thomas/ResourcesToAdd/2003_Dhaene_Goovaerts_Kaas.pdf:PDF},
-  publisher = {Taylor \& Francis},
-}
-
 @Comment{jabref-meta: databaseType:bibtex;}

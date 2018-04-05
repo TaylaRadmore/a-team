@@ -4,7 +4,8 @@
 \contentsline {section}{\numberline {3}Literature Review}{1}{section.3}
 \contentsline {subsection}{\numberline {3.1}Core Literature}{1}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Further Reading}{4}{subsection.3.2}
-\contentsline {section}{\numberline {4}Methodology}{6}{section.4}
-\contentsline {section}{\numberline {5}Paper Structure}{7}{section.5}
-\contentsline {section}{\numberline {6}Division of Work}{8}{section.6}
-\contentsline {section}{\numberline {7}Time-line}{8}{section.7}
+\contentsline {section}{\numberline {4}Data}{6}{section.4}
+\contentsline {section}{\numberline {5}Methodology}{7}{section.5}
+\contentsline {section}{\numberline {6}Paper Structure}{8}{section.6}
+\contentsline {section}{\numberline {7}Division of Work}{8}{section.7}
+\contentsline {section}{\numberline {8}Time-line}{9}{section.8}

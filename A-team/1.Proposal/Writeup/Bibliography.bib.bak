@@ -85,4 +85,16 @@
   publisher = {Taylor \& Francis},
 }
 
+@Article{artzner1999coherent,
+  author    = {Artzner, Philippe and Delbaen, Freddy and Eber, Jean-Marc and Heath, David},
+  title     = {Coherent measures of risk},
+  journal   = {Mathematical finance},
+  year      = {1999},
+  volume    = {9},
+  number    = {3},
+  pages     = {203--228},
+  file      = {talks about coherence:C\:/Users/thoma/Documents/GitHub/a-team/A-team/Thomas/ResourcesToAdd/artzner1999.pdf:PDF},
+  publisher = {Wiley Online Library},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

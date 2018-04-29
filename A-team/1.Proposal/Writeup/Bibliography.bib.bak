@@ -109,4 +109,48 @@
   publisher = {Wiley Online Library},
 }
 
+@Article{BRANDTNER20135526,
+  author   = {Mario Brandtner},
+  title    = {Conditional Value-at-Risk, spectral risk measures and (non-)diversification in portfolio selection problems – A comparison with mean–variance analysis},
+  journal  = {Journal of Banking \& Finance},
+  year     = {2013},
+  volume   = {37},
+  number   = {12},
+  pages    = {5526 - 5537},
+  issn     = {0378-4266},
+  doi      = {https://doi.org/10.1016/j.jbankfin.2013.02.009},
+  file     = {:C\:/Users/Tayla Radmore/Documents/Research_Project/lit_review_stage/1-s2.0-S0378426613000848-main.pdf:PDF},
+  keywords = {Portfolio selection, Spectral risk measures, Conditional Value-at-Risk, Comonotonicity, Efficient frontier, Optimal portfolio},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0378426613000848},
+}
+
+@Article{Föllmer2002,
+  author   = {F{\"o}llmer, Hans and Schied, Alexander},
+  title    = {Convex measures of risk and trading constraints},
+  journal  = {Finance and Stochastics},
+  year     = {2002},
+  volume   = {6},
+  number   = {4},
+  pages    = {429--447},
+  month    = {Oct},
+  issn     = {0949-2984},
+  abstract = {We introduce the notion of a convex measure of risk, an extension of the concept of a coherent risk measure defined in Artzner et al. (1999), and we prove a corresponding extension of the representation theorem in terms of probability measures on the underlying space of scenarios. As a case study, we consider convex measures of risk defined in terms of a robust notion of bounded shortfall risk. In the context of a financial market model, it turns out that the representation theorem is closely related to the superhedging duality under convex constraints.},
+  day      = {01},
+  doi      = {10.1007/s007800200072},
+  url      = {https://doi.org/10.1007/s007800200072},
+}
+
+@Article{KRATZ2018393,
+  author   = {Marie Kratz and Yen H. Lok and Alexander J. McNeil},
+  title    = {Multinomial VaR backtests: A simple implicit approach to backtesting expected shortfall},
+  journal  = {Journal of Banking \& Finance},
+  year     = {2018},
+  volume   = {88},
+  pages    = {393 - 407},
+  issn     = {0378-4266},
+  doi      = {https://doi.org/10.1016/j.jbankfin.2018.01.002},
+  keywords = {Backtesting, Banking regulation, Expected shortfall, Financial risk management, Statistical test, Value-at-Risk},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0378426618300086},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

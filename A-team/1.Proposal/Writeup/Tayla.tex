@@ -1,0 +1,140 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{natbib}
+\usepackage[british]{babel}
+\usepackage{parskip}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+%\usepackage{appendix}
+
+%Any global settings go here
+\graphicspath{{Figures/}}
+
+\bibpunct[:]{(}{)}{;}{a}{,}{,}
+
+\renewcommand{\baselinestretch}{1.5}
+
+%some shortcut commands
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\be}{\begin{enumerate}}
+\newcommand{\ee}{\end{enumerate}}
+
+\begin{document}
+
+\begin{titlepage}
+
+\title{Tayla's portion of lit review\\
+\line(1,0){250}\\}
+
+\date{\today}
+
+\author{Tayla Radmore (RDMTAY001)}
+
+\maketitle
+
+\begin{figure}
+
+\begin{center}
+\includegraphics[width=3cm]{UCTlogo.jpg}\\[1cm]
+\end{center}
+
+\end{figure}
+
+\begin{center}
+\line(1,0){150}\\
+{{\tt rdmtay001@myuct.ac.za}}
+\end{center}
+
+\thispagestyle{empty}
+
+\end{titlepage}
+
+\pagenumbering{roman}
+
+\tableofcontents
+
+\newpage
+
+\pagenumbering{arabic}
+
+\section{Conditional Value-at-Risk, spectral risk measures and(non-)diversification in portfolio selection problems – A comparison with mean–variance analysis by Mario Brandtner}
+\label{sec:1}
+
+\cite{BRANDTNER20135526} showed that spectral risk measures tend to corner solutions. Also that if there is a risk free asset there is no diversification and if there is not a risk free asset spectral measures provide limited diversification. Therefore spectral measures, including Conditional Value-at-Risk will not be investigated in this paper. \cite{BRANDTNER20135526} felt that going forward convex risk measures should be looked into. As a result these will be considered for this paper.
+
+
+
+\citep{BRANDTNER20135526}
+
+\section{Convex measures of risk and trading constraints by Hans F{\"o}llmer, Alexander Schied}
+\label{sec:2}
+
+\cite{Föllmer2002} explored convex risk measures. Convex risk measures are an extention of coherent risk measures. Therefore coherent measures are a special case of convex measures. A convex measure needs to satisfy the conditions of monotonicty, convexity and translation invariance.  VaR is not a convex risk measure. Bounded shortfall is a convex risk measure.
+
+*** This paper was literally all maths - it didn't talk about strengths / weakness / how to use to diversify etc I'll look at that stuff some more
+
+*** also I'm unsure about what we do and don't need to define so let me know if I need to do more defining
+
+\section{Multinomial VaR backtests: A simple implicit approach to backtesting expected shortfall by Marie Kratz, Yen H. Lok, Alexander J. McNeil}
+\label{sec:3}
+
+\cite{KRATZ2018393} focuses on backtesting, which is where you 'compare realisations with forecasts' \citep{KRATZ2018393}. One important decision that will need to be made with regards to this paper is how often our portfolio will be rebalanced - if at all. In their testing\cite{KRATZ2018393} used a rebalancing that would corresponded to 10 day - ie 'every two trading weeks' which they felt mirrored what is done in practice. Therefore this may well be a good time-frame for rebalancing in this paper. Another interesting thing in the paper by \cite{KRATZ2018393} is that they included an "oracle" trader which they defined as a "forecaster [that] knows the correct model and its exact parameter values.". This leads to the consideration of including a best possible strategy in this portfolio. In other words, including the outcome of a portfolio if we could have perfectly predicted everything the market did over the period of historical data we have in order to compare this to the outcomes of our models using our chosen diversification strategies.   
+
+
+
+
+*** I know I already ruled out shortfall, I just wanted to read this paper because I was feeling a bit unsure about the testing part of this project and felt this paper would help me figure that out
+
+My understanding of what we're going to do for this project:
+
+\be
+\item Pick a risk measure
+\item Pick how we use that to select a portfolio
+\item Take the starting point of our data and pick a portfolio using (1) \& (2). Ie if our data starts January 1950 do so for that moment. Decisions:  
+\be
+	\item Now are we going to use a buy and hold strategy - surely not - guess we could model this too....
+	\item If we are going to rebalance how often - theoretically could rebalance constantly but that isn't really practical - we should do one where we rebalance constantly to see how accurate our strategy could be and then one where we rebalance at more practical intervals to see how it could be applied in practice 
+	\item We need to be aware of taxes and transaction costs - don't think we will include these in our model - but should say that's part of the justification for the practical period rebalancing and also be explicit about the fact that we are ignoring them
+	\ee
+\item Pick a baseline that we'll compare to the 2 (3?) models above
+\be
+	\item what does a baseline look like - buy and hold in equally weighted? 
+	\item  Maybe a rebalancing here of equally weighted - what would that really mean - does that make sense
+	\item include an 'oracle' ?
+	\ee
+\item Pick the statistic that we use to compare performance between models in (3) \& (4) 
+\be
+	\item Will likely need to make a percentage decision (eg VaR 95\% though obviously not VaR) - will likely need to think about power and significance of tests
+	\item Also how big a difference is actually a worthwhile difference will be important
+	\ee
+\item Conclude
+\item Repeat (1-6) for next measure (/measures)
+\item Final conclusion
+\ee
+
+\bi
+\item I think we should try set our lit review up so our research sort of follows this order of answering our questions - ie first part of lit review tackles risk measures, second tackles how we use that to select a portfolio, followed by how we pick a baseline and so on
+\item feel free to tell me if you disagree with any part of that, I also think we need to have a meeting to decide a lot of these things because we haven't really discussed any of them yet... maybe early Wednesday before Tom starts putting everything together? Because I do think we need to at least make preliminary decisions about these issues in our lit review 
+\ei
+ 
+\section{CAPM and APT-like models with risk measures by Alejandro Balb{\'a}s, Beatriz Balb{\'a}s, Raquel Balb{\'a}s}
+\label{sec:4}
+
+*** honestly this paper broke my brain... I struggle a bit with these papers that are just solidly maths but I couldn't find anything that I found useful
+
+I added it to our references in case you guys want to look at it \cite{BALBAS20101166}
+
+
+
+ 
+ 
+
+
+\newpage
+\bibliographystyle{natbib}
+\bibliography{Bibliography}
+\label{bib:bibliography}
+ 
+\end{document}

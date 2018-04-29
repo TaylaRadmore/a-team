@@ -1,0 +1,27 @@
+\begin{thebibliography}{}
+
+\bibitem[Balbás {\em et~al.}(2010)Balbás, Balbás, and
+  Balbás]{BALBAS20101166}
+Balbás, A., Balbás, B., and Balbás, R. (2010).
+\newblock Capm and apt-like models with risk measures.
+\newblock {\em Journal of Banking \& Finance\/}, {\bf 34}(6), 1166 -- 1174.
+
+\bibitem[Brandtner(2013)Brandtner]{BRANDTNER20135526}
+Brandtner, M. (2013).
+\newblock Conditional value-at-risk, spectral risk measures and
+  (non-)diversification in portfolio selection problems – a comparison with
+  mean–variance analysis.
+\newblock {\em Journal of Banking \& Finance\/}, {\bf 37}(12), 5526 -- 5537.
+
+\bibitem[F{\"o}llmer and Schied(2002)F{\"o}llmer and Schied]{Föllmer2002}
+F{\"o}llmer, H. and Schied, A. (2002).
+\newblock Convex measures of risk and trading constraints.
+\newblock {\em Finance and Stochastics\/}, {\bf 6}(4), 429--447.
+
+\bibitem[Kratz {\em et~al.}(2018)Kratz, Lok, and McNeil]{KRATZ2018393}
+Kratz, M., Lok, Y.~H., and McNeil, A.~J. (2018).
+\newblock Multinomial var backtests: A simple implicit approach to backtesting
+  expected shortfall.
+\newblock {\em Journal of Banking \& Finance\/}, {\bf 88}, 393 -- 407.
+
+\end{thebibliography}

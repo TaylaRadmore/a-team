@@ -6,6 +6,12 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{url}
+\usepackage{amsmath}
+\usepackage{bbold}
+
+\usepackage{amsfonts}
+
+
 %\usepackage{appendix}
 
 %Any global settings go here
@@ -20,6 +26,10 @@
 \newcommand{\ei}{\end{itemize}}
 \newcommand{\be}{\begin{enumerate}}
 \newcommand{\ee}{\end{enumerate}}
+\newcommand{\e}[1]{{\mathbb E}\left[ #1 \right]}
+\newcommand{\ts}{\textsuperscript}
+ 
+
 
 \begin{document}
 
@@ -62,25 +72,22 @@
 \section{Conditional Value-at-Risk, spectral risk measures and(non-)diversification in portfolio selection problems – A comparison with mean–variance analysis by Mario Brandtner}
 \label{sec:1}
 
-\cite{BRANDTNER20135526} showed that spectral risk measures tend to corner solutions. Also that if there is a risk free asset there is no diversification and if there is not a risk free asset spectral measures provide limited diversification. Therefore spectral measures, including Conditional Value-at-Risk will not be investigated in this paper. \cite{BRANDTNER20135526} felt that going forward convex risk measures should be looked into. As a result these will be considered for this paper.
+\cite{BRANDTNER20135526} showed that spectral risk measures tend to corner solutions. Also that if there is a risk free asset there is no diversification and if there is not a risk free asset spectral measures provides limited diversification. Therefore spectral measures, including Conditional Value-at-Risk will not be investigated in this paper. \cite{BRANDTNER20135526} felt that going forward convex risk measures should be looked into. As a result these will be considered for this paper.
 
-
-
-\citep{BRANDTNER20135526}
 
 \section{Convex measures of risk and trading constraints by Hans F{\"o}llmer, Alexander Schied}
 \label{sec:2}
 
 \cite{Föllmer2002} explored convex risk measures. Convex risk measures are an extention of coherent risk measures. Therefore coherent measures are a special case of convex measures. A convex measure needs to satisfy the conditions of monotonicty, convexity and translation invariance.  VaR is not a convex risk measure. Bounded shortfall is a convex risk measure.
 
-*** This paper was literally all maths - it didn't talk about strengths / weakness / how to use to diversify etc I'll look at that stuff some more
+*** This paper was literally all maths - it didn't talk about strengths / weakness / how to use to diversify etc I'll look at that stuff some more ****
 
-*** also I'm unsure about what we do and don't need to define so let me know if I need to do more defining
+*** also I'm unsure about what we do and don't need to define so let me know if I need to do more defining ****
 
 \section{Multinomial VaR backtests: A simple implicit approach to backtesting expected shortfall by Marie Kratz, Yen H. Lok, Alexander J. McNeil}
 \label{sec:3}
 
-\cite{KRATZ2018393} focuses on backtesting, which is where you 'compare realisations with forecasts' \citep{KRATZ2018393}. One important decision that will need to be made with regards to this paper is how often our portfolio will be rebalanced - if at all. In their testing\cite{KRATZ2018393} used a rebalancing that would corresponded to 10 day - ie 'every two trading weeks' which they felt mirrored what is done in practice. Therefore this may well be a good time-frame for rebalancing in this paper. Another interesting thing in the paper by \cite{KRATZ2018393} is that they included an "oracle" trader which they defined as a "forecaster [that] knows the correct model and its exact parameter values.". This leads to the consideration of including a best possible strategy in this portfolio. In other words, including the outcome of a portfolio if we could have perfectly predicted everything the market did over the period of historical data we have in order to compare this to the outcomes of our models using our chosen diversification strategies.   
+\cite{KRATZ2018393} focuses on backtesting, which is where you ``compare realisations with forecasts" \citep{KRATZ2018393}. One important decision that will need to be made with regards to this paper is how often our portfolio will be rebalanced - if at all. In their testing\cite{KRATZ2018393} used a rebalancing that would corresponded to 10 day - ie ``every two trading weeks" which they felt mirrored what is done in practice. Therefore this may well be a good time-frame for rebalancing in this paper. Another interesting thing in the paper by \cite{KRATZ2018393} is that they included an ``oracle" trader which they defined as a ``forecaster [that] knows the correct model and its exact parameter values". This leads to the consideration of including a best possible strategy in this portfolio. In other words, including the outcome of a portfolio if we could have perfectly predicted everything the market did over the period of historical data we have in order to compare this to the outcomes of our models using our chosen diversification strategies.   
 
 
 
@@ -102,7 +109,7 @@ My understanding of what we're going to do for this project:
 \be
 	\item what does a baseline look like - buy and hold in equally weighted? 
 	\item  Maybe a rebalancing here of equally weighted - what would that really mean - does that make sense
-	\item include an 'oracle' ?
+	\item include an ``oracle" ?
 	\ee
 \item Pick the statistic that we use to compare performance between models in (3) \& (4) 
 \be
@@ -116,7 +123,7 @@ My understanding of what we're going to do for this project:
 
 \bi
 \item I think we should try set our lit review up so our research sort of follows this order of answering our questions - ie first part of lit review tackles risk measures, second tackles how we use that to select a portfolio, followed by how we pick a baseline and so on
-\item feel free to tell me if you disagree with any part of that, I also think we need to have a meeting to decide a lot of these things because we haven't really discussed any of them yet... maybe early Wednesday before Tom starts putting everything together? Because I do think we need to at least make preliminary decisions about these issues in our lit review 
+\item Feel free to tell me if you disagree with any part of that, I also think we need to have a meeting to decide a lot of these things because we haven't really discussed any of them yet... maybe early Wednesday before Tom starts putting everything together? Because I do think we need to at least make preliminary decisions about these issues in our lit review 
 \ei
  
 \section{CAPM and APT-like models with risk measures by Alejandro Balb{\'a}s, Beatriz Balb{\'a}s, Raquel Balb{\'a}s}
@@ -128,8 +135,84 @@ I added it to our references in case you guys want to look at it \cite{BALBAS201
 
 
 
+\section{Nonlinearly weighted convex risk measure and its application by Zhiping Chen, Li Yang}
+\label{sec:5}
+
+*** This paper is amazing!!! I recommend reading it!! I WOULD REALLY LIKE TO USE THIS RISK MEASURE!!!!
+
+\cite{CHEN20111777} beleive ``Risk is an asymmetric concept related to downside outcomes, and any realistic way of measuring risk should consider upside and downside results differently". It is important that the chosen risk measure reflects the risk-averse nature of investors. A coherent risk measure satisfies ``subadditivity, positive homogeneity,
+monotonicity and translation invariance" \citep{CHEN20111777}. \cite{CHEN20111777} felt that one of the issues with coherent risk measures is the positive homogeneity. Their first problem with it is that it means ``the risk grows in proportion to the volume of the portfolio" therefore ``if liquidity cannot be assured in the market (which is often the situation in stock markets), the risk of a financial portfolio might increase in a nonlinear way with respect to the volume of the portfolio" exists. This may be especially relevant as the South African stock market is not a market of a developed country which often leads to even less liquidity than is present in developed country's markets. *** Maybe try get some sources on how liquid the South African stock market truly is *** The second problem this paper had is that positive homogeneity ``corresponds to the linear utility and a rational investor will not accept this kind of utility function". There appears to be evidence ``that investors become more risk averse in face of large investment loss" ``(Bosch-Domènech and Silvestre, 2006)". It was for these reasons that \cite{Föllmer2002} introduced convex measures where positive homogeneity and subadditivity are replaced with ``the weaker property of convexity". *** check me out my papers are tying themselves together!! I'm doing your work for you Tom ***. \cite{CHEN20111777} believe the reason coherent and convex measures are not widely used is because of the need for translation invariance. As a result deviation measures exist.  \cite{CHEN20111777} therefore believe that risk measures should satisfy convexity and monotonicity and as a result propose a, very promising, risk measure that satisfies this definition. They believe ``the new measure can suitably describe the
+investor’s degree of risk aversion and can be used to find robust optimal portfolios in practice". \cite{CHEN20111777} believe the main concern for portfolio selection is ``consistency with his/her preference". As result of all these considerations \cite{CHEN20111777} introduce ``a class of nonlinear weight functions" ``in [their] new risk measure".  \cite{CHEN20111777} feel that research supports ``asymmetry and fat tails exist in the financial asset return distribution in real financial markets (Leland, 1999)", which is widely held belief and reasonable assumption. They also ``assume that the investor’s main interest is in the lower tail of the loss distribution", which again is a reasonable assumption and one we may well make. \cite{CHEN20111777}'s measure ``non-linearly penaliz[es] large negative returns". 
+
+\cite{CHEN20111777} introduce Weighted Expected Shortfall (WES) which is defined as: ``For the real random return rate X with $\e{X^{-}} < \infty$, the new risk measure, called the weighted expected shortfall at a given tail level $\alpha$, is defined as
+$WES_{\alpha}(X)= \alpha^{-1}(W(x_{\alpha})x_{\alpha}(\Pr[X \leq x_{\alpha}]-\alpha)-\e{W(X)X\mathbb{1}_{(X \leq x_{\alpha})}}) ;$ 
+where $ x_{\alpha} = \inf( {x \in R : \Pr[X \leq x] \geq \alpha })$, and w(x) is a monotonically nonincreasing function of x. Moreover, w(x) is positive and convex for
+$x \leq 0$, and non-negative and concave for $x>0$."
+
+ Now if $ w(X) \equiv 1$ then weighted expected shortfall recovers expected shortfall. Weighted expected shortfall improves expected shortfall ``by treating different losses below $VaR_{\alpha}$ individually, it enables that a large loss will contribute more to the value of $WES_{\alpha}$ than a comparatively small loss". Also through an appropriate ``selection of the weight function w(x), $WES_{\alpha}$ treats small losses and large losses below $VaR_{\alpha}$ in an asymmetric manner". ``The more convex the w(x) is when $ x < 0$ , the more risk-averse the investor is. Meanwhile, the more concave the w(x) is when $x > 0 $, the less the investor cares about earnings. Therefore, the choice of w(x) depends on the investor’s attitude towards risk". The typical weight functions used include: $ w(x)= e^{-\lambda x} $ where $\lambda \geq 0$ ; $w(x) = e^{-(1+x)}$; $w(x) = (1-x)^{\beta} $ \& $w(x) = (\beta -x)^{\beta} $ where $\beta > 1$ for $ x \leq 0 $ and $w(x) = 0$ for $x > 0 $ 
+ 
+ *** my e here is just an e but I feel that might actually be the convention - I personally hate exp(...) I find it super hard to read and therefore am boycotting it ***
+ 
+ \cite{CHEN20111777} explored a number of properties of the weighted expected shortfall. Firstly, ``$WES_{\alpha}(X)$ is convex with respect to X". \cite{CHEN20111777} felt that the convexity of weighted expected shortfall is ``essential for investment strategy selection in stock markets". Secondly they showed that weighted expected shortfall is  ``strictly monotonically decreasing" with respect to x. It is also monotonic ``with respect to a". Weighted expected shortfall ``is continuous with respect to a". Another property is that ``the weighted summation of our new risk measures is still a risk measure satisfying convexity and monotonicity". Lastly weighted expected shortfall is differentiable. \cite{CHEN20111777} looked into two methods of estimating weighted expected shortfall, namely the historical method and the Richardson extrapolation method. \cite{CHEN20111777} concluded that for these purposes the historical method was the most practical, therefore this paper shall follow that conclusion. The historical method estimates WES using the L statistic. ``If $\alpha M$ is an integer, that is $\alpha M \in \mathbb{N}$" then WES ``can be directly estimated by" $W \hat{E} S _{\alpha} = \frac{-1}{\alpha M} (\sum_{m=1}^{\alpha M} w(X_{(m)}) X_{(m)}) $. If $\alpha M \notin \mathbb{N}$ estimate: $W \hat{E} S _{\alpha} = \frac{-1}{\alpha M} (\sum_{m=1}^{[\alpha M]} w(X_{(m)}) X_{(m)} + (\alpha M - [\alpha M])w(X_{([\alpha M] + 1)})X_{([\alpha M] + 1)}) $
+ where ``$X_{(m)}$ is the m\ts{th} order statistic" and ``[y] denotes the lower integer part of the real number y". This estimation ``does not rely on any distribution assumption
+about X, which is extremely important for the practical financial risk management since" this ``can drastically reduce the mathematical complexity of the problem". The Richardson extrapolation method was considered by  \cite{CHEN20111777} because ``can speed up the convergence of the historical method" which is considered potentially necessary because the historical method may need a large sample to estimate. \cite{CHEN20111777} found that ``in general, the bias of the historical method is smaller than that of the Richardson extrapolation method; for almost all the cases, the estimates by the historical method converge to the actual $WES_{\alpha}(X)$ value faster than those by the Richardson extrapolation method; the accuracy and stability of the Richardson extrapolation method are more or less the same as those of the historical method only when the sample size and a are small." in their tests. Therefore \cite{CHEN20111777} felt ``the Richardson extrapolation method may be more efficient than the historical method in the estimation of $WES_{\alpha}(X)$ when the return rate distribution is symmetric or when both the sample size and a are small", but that ``these situations usually
+do not occur in reality. Therefore, considering the extra computational effort required by the Richardson extrapolation method, the usual historical method is more suitable for the estimation of $WES_{\alpha}(X)$ in practice."
+
+\cite{CHEN20111777} in particular does with regards to transaction costs and taxes is says that the investor ``tries to minimize the risk for his/her portfolio return rate after
+taxes and transaction costs are deduced" while assuming ``that taxes have to be paid on both ordinary income and capital gains" and ``that dividends and transaction costs on risky assets are paid at the end of the investment period and are known to the investor with certainty at the beginning of the investment period" which might be something worth considering doing for this paper. Especially considering \cite{CHEN20111777} feel ``Transaction cost is an important factor for an investor to take into consideration in the portfolio selection" as ``Ignoring transaction cost in a portfolio selection model often leads to an inefficient portfolio in practice". Another thing that \cite{CHEN20111777} do is, with regards to the starting investment, that it allocates proportions of the investors wealth invested in each risky/risk-free asset, this may well be a good strategy for this paper. Furthermore \cite{CHEN20111777} impose another constraint in particular ``upper and lower bounds on the proportion of the wealth that the investor will invest on a certain asset", they believe this is a worthwhile constraint because of institutional
+restrictions that would dictate this in practice. This may be another constraint to include in this paper. It may; however; be a constraint that is too advanced for this particular paper and instead be something for consideration in further studies. \cite{CHEN20111777} also chose to constrain their analysis by disallowing short selling and borrowing . They make this decision because ``In many security markets in the world" ``short sales are forbidden and borrowing is either strictly restricted or rather costly". This paper will also make this assumption. 
+ 
+*** The paper then goes on (with very rigorous mathematics) to derive that exact problem to be optimised which I do think will be useful for our final paper - in terms of actually testing - but I don't feel it needs to be included in the lit review, so I have not included it (feel free to let me know if you feel it should be included) but the main gist is that ``The investor wants to minimize the investment risk measured by $WES_{\alpha}$ while ensuring a certain level of return on
+investment at the end of the investment period" ***
+
+ \cite{CHEN20111777} use $w(x)= e^{-\lambda x}$ when  $ x \leq 0 $ and $w(x) = 0$ for $x > 0 $. Their justification is that this w(x) ``is highly plausible and easy to interpret". A further simplification made is that they ``set the marginal capital gains tax rate to be equal to the marginal ordinary income tax rate". They then also ``use the daily return rate with dividend re-invested to take the dividend yield into account". Lastly  \cite{CHEN20111777} ``assume that the investor only holds cash at the beginning of the investment period", which is another worthwhile assumption to make in this paper. 
  
  
+\cite{CHEN20111777} use the Herfindahl index and the number of stocks included in the portfolio to measure the extent of diversification. These may well be reasonable measure to use in this paper. This Herfindahl index is smaller the more diversified the portfolio is. *** Maybe get a bit more info here *** \cite{CHEN20111777} also use further ratios to assess the portfolios, namely ``return/$WES_{\alpha}$ ratio, the return/$ES_{\alpha}$ ratio, the return/Power CVaR (R/PCVaR) " and the ``two-sided variability ratios (the generalized Rachev (G-Rachev) ratio and the Farinelli–Tibiletti (F–T) ratio)". *** These measures can be looked into further in Computational asset allocation using onesided
+and two-sided variability measures by Farinelli, S., Rossello, D., Tibiletti, L. and Optimal asset allocation using different performance ratios by Farinelli, S., Ferreira, M., Rossello, D., Thoeny, M., Tibiletti, L. **** The nature of these ratios means the higher their value the better. These ratios may not be as important for the purpose of this paper as it focuses on diversification. *** I haven't typed up or really included much about these at all but I can if we are going to consider them, just let me know ****
+
+\cite{CHEN20111777} randomly select ``A riskless asset and 30 risky stocks" from the ``A-share stocks in Chinese stock
+markets" for their empirical testing. This is worth noting, potentially a similar method should be used in this paper. In order to determine their parameter values \cite{CHEN20111777} used ``600 trading days". A decision on how much data will be used for initial selection will need to be made in for the purposes of this paper. \cite{CHEN20111777} then observed the value of the portfolio one week and 4 weeks after. Specifically this means they used a buy and hold strategy and then simply observed the results, this may well be the way to go about it in this paper. It is also worth noting that \cite{CHEN20111777} took into account the situations in each country they investigated; in particular they set the required return at a reasonable level. This will mean that for the purposes of this paper the South African market will need to be investigated in order to be able to make realistic decisions going forward. \cite{CHEN20111777} confirmed that the higher $\lambda$ would correspond to a more risk averse investor. \cite{CHEN20111777} also found that ``the diver
+sification of the optimal portfolio decreases with the increase in  $\lambda$". \cite{CHEN20111777}'s empirical investigations found that ``the performance of the optimal portfolio obtained using $WES_{0.05}$ is better than that using the current popular coherent risk measure $ES_{0.05}$" and that this was more and more significant the greater $\lambda$ was. \cite{CHEN20111777} therefore believe that ``In addition to reflecting the investor’s degree of risk aversion, the nonlinear weight function w(x) can also help us to control the fat-tail phenomenon, that is, the occurrence of extreme losses". \cite{CHEN20111777} first investigated the effect of differing $\lambda$ and then differing transaction costs and lastly the effect of differing target rates of return. This may be a worthwhile way to include transaction costs' effect in this paper, it may; however; be beyond the scope of this paper. \cite{CHEN20111777} felt that their ``results also confirm the existing empirical conclusion that the portfolio performance and diversification often decrease with the increase in the transaction cost". \cite{CHEN20111777} empirical investigation also agreed with ``the well-known fact that portfolios with higher returns
+are almost surely accompanied by higher risks, measured by any reasonable risk measure", which provides further faith in this particular risk measure. 
+
+
+\cite{CHEN20111777} found that the results; while still good; were not as good when they looked at the US market than the Chinese. They attested this to the fact that buy-and-hold strategies not earning ``high returns constantly in advanced markets", in other words in advance markets ``investors should adjust their investment strategy more frequently" than in emerging markets. South Africa is seem more as an emerging market so a buy and hold strategy may well be sufficient, this is something that would need to be looked into further.
+
+\cite{CHEN20111777} felt that a strength of this new risk measure is that ``instead of using the current solution methods for stochastic programs, [their] portfolio selection model is specifically transformed into a convex optimization problem, which can be easily solved".
+
+
+
+
+My understanding of what we're going to do for this project (revised):
+
+\be
+\item Pick a risk measure
+\item Pick how we use that to select a portfolio
+\item Take the starting point of our data and pick a portfolio using (1) \& (2). (This will be a first period to find the values of parameters) Decisions:  
+\be
+	\item Now are we going to use a buy and hold strategy - surely not - guess we could model this too.... Actually this last paper does kind of give justification for a buy and hold - so maybe we should make this our first objective and a secondary objective after that is done (ie provided there is time) to try do a rebalancing version
+	\item If we are going to rebalance how often - theoretically could rebalance constantly but that isn't really practical - we should do one where we rebalance constantly to see how accurate our strategy could be and then one where we rebalance at more practical intervals to see how it could be applied in practice 
+	\item We need to be aware of taxes and transaction costs - don't think we will include these in our model - but should say that's part of the justification for the practical period rebalancing and also be explicit about the fact that we are ignoring them - actually maybe we should try include a very simplified version?? maybe we could even do what the above paper did (maybe I'm being a bit extra)? As they made a rather strong case for at the very least some (reasonable) fictional costs
+	\item something else I never considered is that max and min investment in a particular share - I really feel that this is very extra but we should at least mention it - ie say it would be a refinement on our version but that we aren't going to include it
+	\ee
+\item Pick a baseline that we'll compare to the 2 (3?) models above
+\be
+	\item what does a baseline look like - buy and hold in equally weighted? 
+	\item  Maybe a rebalancing here of equally weighted - what would that really mean - does that make sense
+	\item include an ``oracle" ?
+	\ee
+\item Pick the statistic that we use to compare performance between models in (3) \& (4) 
+\be
+	\item Will likely need to make a percentage decision (eg VaR 95\% though obviously not VaR) - will likely need to think about power and significance of tests
+	\item Also how big a difference is actually a worthwhile difference will be important
+	\ee
+\item Conclude
+\item Repeat (1-6) for next measure (/measures)
+\item Final conclusion
+\ee
+
+
 
 
 \newpage

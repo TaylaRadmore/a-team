@@ -1,4 +1,4 @@
-\babel@toc {british}{}
+\select@language {british}
 \contentsline {section}{\numberline {1}Conditional Value-at-Risk, spectral risk measures and(non-)diversification in portfolio selection problems – A comparison with mean–variance analysis by Mario Brandtner}{1}{section.1}
 \contentsline {section}{\numberline {2}Convex measures of risk and trading constraints by Hans F{\"o}llmer, Alexander Schied}{1}{section.2}
 \contentsline {section}{\numberline {3}Multinomial VaR backtests: A simple implicit approach to backtesting expected shortfall by Marie Kratz, Yen H. Lok, Alexander J. McNeil}{2}{section.3}

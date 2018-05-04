@@ -1,0 +1,82 @@
+\begin{thebibliography}{}
+
+\bibitem[Acerbi(2002)Acerbi]{ACERBI20021505}
+Acerbi, C. (2002).
+\newblock Spectral measures of risk: A coherent representation of subjective
+  risk aversion.
+\newblock {\em Journal of Banking \& Finance\/}, {\bf 26}(7), 1505 -- 1518.
+
+\bibitem[Artzner {\em et~al.}(1999)Artzner, Delbaen, Eber, and
+  Heath]{artzner1999coherent}
+Artzner, P., Delbaen, F., Eber, J.-M., and Heath, D. (1999).
+\newblock Coherent measures of risk.
+\newblock {\em Mathematical finance\/}, {\bf 9}(3), 203--228.
+
+\bibitem[Brandtner(2013)Brandtner]{BRANDTNER20135526}
+Brandtner, M. (2013).
+\newblock Conditional value-at-risk, spectral risk measures and
+  (non-)diversification in portfolio selection problems – a comparison with
+  mean–variance analysis.
+\newblock {\em Journal of Banking \& Finance\/}, {\bf 37}(12), 5526 -- 5537.
+
+\bibitem[Bruder and Roncalli(2012)Bruder and Roncalli]{bruder2012managing}
+Bruder, B. and Roncalli, T. (2012).
+\newblock Managing risk exposures using the risk budgeting approach.
+
+\bibitem[Byrne and Lee(2004)Byrne and Lee]{byrne2004different}
+Byrne, P. and Lee, S. (2004).
+\newblock Different risk measures: Different portfolio compositions?
+\newblock {\em Journal of Property Investment \& Finance\/}, {\bf 22}(6),
+  501--511.
+
+\bibitem[Chen and Yang(2011)Chen and Yang]{CHEN20111777}
+Chen, Z. and Yang, L. (2011).
+\newblock Nonlinearly weighted convex risk measure and its application.
+\newblock {\em Journal of Banking \& Finance\/}, {\bf 35}(7), 1777 -- 1793.
+
+\bibitem[Consigli(2004)Consigli]{consiglirisk}
+Consigli, G. (2004).
+\newblock Risk measures for the 21st century giorgio szeg{\"o} ed john wiley
+  and sons pbl (2004) wiley finance.
+
+\bibitem[Dhaene {\em et~al.}(2003)Dhaene, Goovaerts, and
+  Kaas]{dhaene2003economic}
+Dhaene, J., Goovaerts, M.~J., and Kaas, R. (2003).
+\newblock Economic capital allocation derived from risk measures.
+\newblock {\em North American Actuarial Journal\/}, {\bf 7}(2), 44--56.
+
+\bibitem[Dowd and Blake(2006)Dowd and Blake]{dowd2006after}
+Dowd, K. and Blake, D. (2006).
+\newblock After var: the theory, estimation, and insurance applications of
+  quantile-based risk measures.
+\newblock {\em Journal of Risk and Insurance\/}, {\bf 73}(2), 193--229.
+
+\bibitem[F{\"o}llmer and Schied(2002)F{\"o}llmer and Schied]{Föllmer2002}
+F{\"o}llmer, H. and Schied, A. (2002).
+\newblock Convex measures of risk and trading constraints.
+\newblock {\em Finance and Stochastics\/}, {\bf 6}(4), 429--447.
+
+\bibitem[Hoe {\em et~al.}(2010)Hoe, Hafizah, Zaidi, {\em
+  et~al.}]{hoe2010empirical}
+Hoe, L.~W., Hafizah, J.~S., Zaidi, I., {\em et~al.} (2010).
+\newblock An empirical comparison of different risk measures in portfolio
+  optimization.
+\newblock {\em Business and Economic Horizons\/}, {\bf 1}(1), 39--45.
+
+\bibitem[Kratz {\em et~al.}(2018)Kratz, Lok, and McNeil]{KRATZ2018393}
+Kratz, M., Lok, Y.~H., and McNeil, A.~J. (2018).
+\newblock Multinomial var backtests: A simple implicit approach to backtesting
+  expected shortfall.
+\newblock {\em Journal of Banking \& Finance\/}, {\bf 88}, 393 -- 407.
+
+\bibitem[Markowitz(1952)Markowitz]{markowitz1952portfolio}
+Markowitz, H. (1952).
+\newblock Portfolio selection.
+\newblock {\em The journal of finance\/}, {\bf 7}(1), 77--91.
+
+\bibitem[Righi and Borenstein(2017)Righi and Borenstein]{righi2017simulation}
+Righi, M.~B. and Borenstein, D. (2017).
+\newblock A simulation comparison of risk measures for portfolio optimization.
+\newblock {\em Finance Research Letters\/}.
+
+\end{thebibliography}

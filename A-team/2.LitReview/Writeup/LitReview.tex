@@ -72,26 +72,25 @@ Thomas K{\"o}nigkr{\"a}mer (KNGTHO005)}
 \section{Introduction}
 \label{sec:Intro}
 
-Due to the critical financial events in our recent past, more and more attention is given to risk and loss mitigation \citep{righi2017simulation}. Diversification strategies are used to allocate assets to a portfolio in the most optimal way. The majority of literature on the matter focuses specifically on diversification strategies which use volatility (i.e. variance) as the risk measure. This is in spite of the fact that its use as a risk measure has come under considerable scrutiny. This has led to a need for research into the use of alternative risk measures (ARMs) in diversification strategies. Ultimately, we intend to answer the question: For a risk-averse investor holding long positions in South African stocks, can we diversify a portfolio using alternative risk measures that outperform the mean-variance (MV) portfolio?
+Due to the critical financial events in our recent past, more attention is given to risk and loss mitigation \citep{righi2017simulation}. Diversification strategies are used to allocate assets to a portfolio in the most optimal way. The majority of literature on the matter focuses specifically on diversification strategies which use volatility (i.e. variance) as the risk measure. This is illustrated in the works by \citet*{CHEN20111179} and \citet*{chow2011survey}. This is true, despite the fact that variance's use as a risk measure has come under considerable scrutiny. \cite{byrne2004different} critises this risk measure considerably, and does research into alternative risk measures (ARMs) that can be used. \cite{righi2017simulation} and \citet*{hoe2010empirical} both provide similar work. This highlights the need for further research into the use of ARMs in diversification strategies. Consequently, we intend to answer the question: For a risk-averse investor holding long positions in South African stocks, can we diversify a portfolio using alternative risk measures that outperform the mean-variance (MV) portfolio?
 
-With this literature review, we aim to create the necessary contextual base for our project. We begin by giving background information regarding diversification based on variance. This will be covered in section \ref{sec:Back}. Section \ref{sec:Risk} provides an evaluation of various risk measures that are available to us. Then, in section \ref{sec:Div}, we consider possible diversification techniques. Finally, section \ref{sec:Further} considers research methodologies by evaluating similar work that has already been done in this area.
+With this literature review, we aim to create the necessary contextual base for our project. We begin by giving background information regarding diversification based on variance in section \ref{sec:Back}. Section \ref{sec:Risk} provides an evaluation of the various risk measures that are available to us. In section \ref{sec:Div}, we consider possible diversification techniques. Finally, section \ref{sec:Further} considers research methodologies by evaluating similar work that has already been done in this area.
 
 \section{Background}
 \label{sec:Back}
 
-The MV diversification method seeks to minimise variance for a given expected return (or similarly, maximise expected return for a given variance) \citep{markowitz1952portfolio}. This is simple and seems to make financial sense. \cite{hoe2010empirical} describe to us the drawbacks of using this model. MV depends on the assumption that either:
-\be
-\item The asset returns are multivariate normally distributed; or
-\item That investor has a quadratic utility function.
-\ee
-These are unrealistic assumptions which rarely occur in practice. This necessitates a more considered choice of risk measure to one that more accurately reflects reality. \cite{byrne2004different} criticise MV's use, since it would imply that the investor is indifferent between the risk that results in a return above the mean (or some benchmark), and the risk that results in a return below that same mean (or benchmark). This is an important and intuitive criticism against using MV diversification. 
+The MV diversification method seeks to minimise portfolio variance for a given portfolio expected return. Similarly, we can maximise expected portfolio return for a given portfolio variance \citep{markowitz1952portfolio}. This is a simple mathematical optimisation problem not difficultly solved. Additionally, minimising portfolio variance seems to be financially intuitive: less volatility results in a more certain outcome. Yet, the practicality that the MV diversification method gives us gives rise to some consequences, namely its unrealistic assumptions. \cite{hoe2010empirical} write that MV depends on the assumption that either: the asset returns are multivariate normally distributed; or, that investor has a quadratic utility function.
+
+These unrealistic assumptions rarely occur in practice. This necessitates a more considered choice of risk measure that more accurately reflects reality. \cite{byrne2004different} criticise the use of mean-variance diversification, since it would imply that the investor is indifferent between the risk that results in a return above the mean (or some benchmark), and the risk that results in a return below that same mean (or benchmark). This is an important and intuitive criticism against using MV diversification. 
+
+Given these drawbacks, \cite{byrne2004different} hypothesises that volatility is still used as a risk measure today due to its familiarity, as well as through avoidance of choosing one of the plethora of ARMs available to us today. ARMs try to improve on the shortfalls of variance as a risk measure. In doing so, they invariably have their own drawbacks. \cite{righi2017simulation} is of the opinion that this makes each risk measure more suited for a specific investor. Further investigating the diversification of ARMs may allow us to choose both a risk measure and diversification method which best suits a more general investor.
 
 \section{Risk Measures}
 \label{sec:Risk}
 
-In a paper with a similar goal to ours, \cite{byrne2004different} also sought to evaluate the use of ARMs. Due to the plethora of ARMs available today, they argue that this is a reason for why variance is still so widely used: investors simply avoid the difficult decision of choosing a risk measure. \cite{righi2017simulation} went further in their research as they evaluated 11 of the most commonly used risk measures. Their research, which uses historic data from US stocks, shows that there is no obviously dominant risk measure. However, they do concede that each risk measure is unique in its construction and interpretation. This idea is reflected by the ``best practices'' risk measures, briefly discussed by \cite{dowd2006after}. They described the work done by \cite{dhaene2003economic}, which argues that there is no universally ``best'' risk measure, since one needs to take the circumstances of the particular scenario into consideration.
+\cite{righi2017simulation} evaluated 11 of the most commonly used risk measures. Their research, which uses historic data from US stocks, shows that there is no obviously dominant risk measure. However, they do concede that each risk measure is unique in its construction and interpretation. This idea is reflected by the ``best practices'' risk measures, briefly discussed by \cite{dowd2006after}. They described the work done by \citet*{dhaene2003economic}, which argues that there is no universally ``best'' risk measure, since one needs to take the circumstances of the particular scenario into consideration.
 
-Taking this information into account, we aim to choose a risk measure that satisfactorily suits a risk-averse investor. Despite the fact that risk-aversion theory is not a perfect or universally accepted idea, we believe that it is a good model. We begin our search by first evaluating and criticising some commonly used ARMs. This prompts us to seek less conventional, but arguably more suitable, measures.
+Taking this information into account, we aim to choose a risk measure that satisfactorily suits a risk-averse investor, as we think this best describes a general investor as described in section \ref{sec:Back}. Despite the fact that risk-aversion theory is not a perfect or universally accepted idea, we believe that it is a good model. The model simply and intuitively describes investor behaviour. We begin our search by first evaluating and criticising some commonly used ARMs. This prompts us to seek less conventional, but arguably more suitable, measures.
 
 \subsection{Value-at-Risk}
 \label{subsec:VaR}
@@ -103,24 +102,25 @@ Despite this, \cite{dowd2006after} believe that VaR is an imperfect measure. The
 \subsection{Coherent Risk Measures - Expected Shortfall}
 \label{subsec:ES}
 
-\cite{dowd2006after} suggest an alternative to VaR in the form of coherent risk measures, of which Expected Shortfall (ES) is a special case \citep{ACERBI20021505}. The risk measure axioms of coherence were postulated by \cite{artzner1999coherent} in order to ensure that risk is more effectively managed. These axioms include: (1) Monotonicity; (2) Sub-additivity; (3) Positive homogeneity; and (4) Translation invariance.
+\cite{dowd2006after} suggest an alternative to VaR in the form of coherent risk measures. They are, in general, characterised by their adherence to the risk measure axioms of coherence. These were postulated by \citet*{artzner1999coherent} in order to ensure that risk is more effectively managed. They include: Monotonicity; Sub-additivity; Positive homogeneity; and Translation invariance.
 
-\cite{CHEN20111777} criticise coherent risk measures because of the axiom of positive homogeneity, as it implies an irrational linear utility for the investor. It is due to this reason that \cite{Föllmer2002} introduced convex measures where they replace the properties of positive homogeneity and sub-additivity with convexity 
+Expected Shortfall (ES) is a special case of the general coherent risk measure form \citep{ACERBI20021505}. ES is widely used and is defined as the expected loss beyond the maximum loss described by VaR \citep{consiglirisk}. \cite{dowd2006after} describe it as a risk measure that is easy to generate.
 
-ES is defined as the expected loss beyond the maximum loss defined by VaR \citep{consiglirisk}. \cite{dowd2006after} describe it as an easily generated risk measure. They do, however, draw attention to the fact it suggests the investor is risk-neutral over the lower tail region it describes. This makes ES ill-suited for our choice of risk measure, since investors are generally attributed with risk-averse appetites for risk.
+Despite the axioms of coherence's attempt to manage risk more effectively, coherent risk measures still attract criticism. \cite{CHEN20111777} criticise the axiom of positive homogeneity specifically, as it implies an irrational linear utility for the investor. \cite{dowd2006after} agree with this same point in their criticism of ES, since ES suggests the investor is risk-neutral over the lower tail region it describes. This makes ES, and coherence risk measures as a whole, ill-suited for our choice of risk measure, since investors are generally attributed with risk-averse investment appetites.
+
+To combat the drawbacks of coherence risk measures, \cite{Föllmer2002} introduced convex risk measures. These risk measures replace the properties of positive homogeneity and sub-additivity with convexity. 
 
 \subsection{Spectral Risk Measures - Conditional VaR}
 \label{subsec:Spec}
 
 \cite{dowd2006after} further discuss spectral risk measures, which combine the properties of coherence risk measures with risk-aversion theory. \cite{dowd2006after} have their own reservations regarding risk-aversion theory, since (as mentioned in section \ref{sec:Risk} above) it is neither perfect nor accepted universally. General spectral risk measures would require us to choose a risk-aversion function for the investor. This is a subjective decision that is difficult to make.
 
-Conditional VaR is a special case of a spectral risk measure \citep{BRANDTNER20135526}. Its risk-averse nature would make it ideal for further research in this paper. However, \cite{BRANDTNER20135526} shows that spectral risk measures tend to corner solutions. Additionally, if there is a risk free asset there is no diversification and if there is not a risk free asset spectral measures provides limited diversification.
+Conditional VaR is a special case of a spectral risk measure \citep{BRANDTNER20135526}. Its risk-averse nature would make it ideal for further research in this paper. However, \cite{BRANDTNER20135526} shows that spectral risk measures tend to corner solutions when applied to portfolio diversification problems. If there is a risk free asset there is no diversification and if there is not a risk free asset spectral measures provide limited diversification.
 
 \subsection{Distortion Risk Measures}
 \label{subsec:Distortion} 
 
 Distortion measures are the last risk measures examined by \cite{dowd2006after}. They focus especially on a generalisation of the Wang Transform. They believe that it is a particularly useful measure due to its ability to recover the Capital Asset Pricing Model (CAPM) as well as the Black-Scholes model. They further describe it as a measure superior to both VaR and ES, since it takes the lower tail region of losses into account. It is uncertain whether this risk measure is ideal for our specific research.
-
 
 \subsection{Weighted Expected Shortfall}
 \label{subsec:WES}
@@ -133,30 +133,34 @@ WES_{\alpha}(X)= \alpha^{-1}(W(x_{\alpha})x_{\alpha}(\Pr[X \leq x_{\alpha}]-\alp
 $$ 
 where 
 $$ x_{\alpha} = \inf( {x \in R : \Pr[X \leq x] \geq \alpha })$$
-Furthermore, $w(x)$ is:
-\bi
-\item A monotonically non-increasing function of x
-\item Positive and convex for $x \leq 0 $
-\item Non-negative and concave for $x>0 $
-\ei 
+Furthermore, $w(x)$ is a monotonically non-increasing function of x, which is positive and convex for $x \leq 0 $, and non-negative and concave for $x>0 $.
 
-$w(x)$ is a non-linear weight function. It attempts to reflect the asymmetry of financial asset returns that one would expect in reality \citep{CHEN20111777}. Thus, the choice of $w(x)$ depends on the investor's appetite for risk, and so perfectly suits what we wish to achieve with our choice of ARM. Various choices for $w(x)$ exist, but \cite{CHEN20111777} use:
-\begin{gather}
-w(x)= e^{-\lambda x}, \\
-\text{	when	}  x \leq 0
-\text{	and	} w(x) = 0 \text{	for	} x > 0. 
-\end{gather}
+$w(x)$ is a non-linear weight function. It attempts to reflect the asymmetry of financial asset returns that one would expect in reality \citep{CHEN20111777}. Thus, the choice of $w(x)$ depends on the investor's appetite for risk, and so perfectly suits what we wish to achieve with our choice of ARM. Various choices for $w(x)$ exist, but \cite{CHEN20111777} use $w(x)= e^{-\lambda x}$ when $x \leq 0$ and $w(x) = 0$ for $x > 0$. 
+
 They justify the use of this specific $w(x)$ by stating that '' [it] is highly plausible and easy to interpret". \cite{CHEN20111777} further state that taxes, and incomes can also be included in this model to make it more practical and useful. $\lambda$ must also be chosen. We can adjust its value to see its affect on the diversification and performance of the portfolios we create. A  higher $\lambda$ would correspond to a more risk averse investor\citep{CHEN20111777}.
+
+\subsection{Choosing our ARMs}
+\label{subsec:ARMchoices}
+
+VaR and ES have both been identified as easily replaced by other risk measures with better properties and interpretations \citep{dowd2006after}.
+
+Conditional VaR has the advantage of incorporating risk-averse investor preferences, yet the corner solutions described by \cite{BRANDTNER20135526} when applying diversification methods make it ill-suited for our investigation.
+
+Unfortunately, distortion measures have yielded little information in our research and shall not be focused on going forward.
+
+We have identified WES as a worthwhile risk measure to investigate going forward. Not only did it have the least amount of criticism, but it also reflects asymmetrical investor preferences through the use of its weight function.
+
+There are still many other risk measures that can be considered for use, such as the Minimax risk measure which is given much praise in the paper by \cite{hoe2010empirical}. These are not complicated and require but little further reading to ensure suitability for our project.
 
 \section{Diversification Strategies}
 \label{sec:Div}
 
-Risk measures only comprise a portion of our research. The difficult task will be finding a suitable diversification strategy to use given the ARMs we will be using. From the work done by \cite{bruder2012managing}, we have decided to focus on three methods of portfolio diversification.
+Risk measures only comprise a portion of our research. From the work done by \cite{bruder2012managing}, we have decided to focus on three methods of portfolio diversification.
 
 \subsection{The Equally-Weighted Portfolio}
 \label{subsec:EW} 
 
-The method of Equally-Weighted (EW) portfolios is mentioned in the paper by \cite{bruder2012managing}. It is primarily used as a point of comparison for other alternative diversification methods. The most notable being the Risk Budgeting (RB) approach. It is a na{\"i}ve diversification method, allocating an equal weight to each asset comprising the portfolio. This is easily understood from its descriptive name. Due to this comparison in different diversification methods they performed, it is worth considering something similar for our research. We have continuously come across work which suggests that there is not an obviously superior risk measure (please see section \ref{sec:Risk} above). Perhaps the different diversification methods we can use is what should be investigated more closely once our ARMs have been chosen.
+The method of Equally-Weighted (EW) portfolios is mentioned in the paper by \cite{bruder2012managing}. It is primarily used as a point of comparison for other alternative diversification methods. The most notable being the Risk Budgeting (RB) approach. It is a very basic diversification method, allocating an equal weight to each asset comprising the portfolio. This is easily understood from its descriptive name. Our research could perform a similar comparison, whereby different diversification methods using the same ARM are compared against the EW portfolio. We have continuously come across work which suggests that there is not an obviously superior risk measure (see section \ref{sec:Risk} above). Perhaps the different diversification methods we can use are what should be investigated more thoroughly once our ARMs have been chosen.
 
 \subsection{Risk Minimisation}
 \label{subsec:Riskmin} 
@@ -166,9 +170,9 @@ This is a simple and intuitive way of allocating asset weights in a portfolio. T
 \subsection{The Risk Budgeting Approach}
 \label{subsec:RB} 
 
-\cite{bruder2012managing} describe the RB approach as an ``alternative indexing strategy''. The most important part of their paper is the single sentence in which they state that this diversification strategy can be generalised so that it can be used for a number of different risk measures, provided the risk measure is both convex, and satisfies the Euler decomposition. \cite{bruder2012managing} did not explore this train of thought any further, but rather performed back-tests comparing the returns of indices which make use of different diversification techniques. Their tests used variance as the risk measure, and found that RB diversification diversifies portfolios more effectively than the MV optimisation approach. It found that the MV approach was heavily concentrated in a single asset class. They further show that the volatility of a RB portfolio is between the volatilities of the MV and EW portfolios respectively.
+\cite{bruder2012managing} describe the RB approach as an ``alternative indexing strategy''. The most relevant part of their paper to our research is the single sentence in which they state that this diversification strategy can be generalised so that it can be used for a number of different risk measures, provided the risk measure is both convex, and satisfies the Euler decomposition. \cite{bruder2012managing} did not explore this train of thought any further, but rather performed back-tests comparing the returns of indices which make use of different diversification techniques. Their tests used variance as the risk measure, and found that RB diversification diversifies portfolios more effectively than the MV optimisation approach. It found that the MV approach was heavily concentrated in a single asset class. They further show that the volatility of a RB portfolio is between the volatilities of the MV and EW portfolios respectively.
 
-Let there be a portfolio consisting of $n$ assets, where $x_i$ represents the weighting of the $i^{th}$ asset ($i=1,2,3,...,n$). If a risk measure $\mathbb{P}$ is convex and satisfies Euler's Decomposition, then:
+In order to apply the RB diversification approach, we consider a portfolio consisting of $n$ assets, where $x_i$ represents the weighting of the $i^{th}$ asset ($i=1,2,3,...,n$). If a risk measure $\mathbb{P}$ is convex and satisfies Euler's Decomposition, then:
 $$
 \mathbb{P}=\sum_{i=1}^{n}x_{i}\frac{\partial\mathbb{P}}{\partial{x_{i}}}
 $$
@@ -188,7 +192,7 @@ are the risks of the minimum risk, RB and EW portfolios respectively.
 \section{Further Considerations to Make}
 \label{sec:Further}
 
-Given our choice of ARMs and diversification methods, we must begin to consider the methodology moving forward. Here we look at what are common practices, constraints, and methods of measuring and comparing performance. 
+Regardless of our choice of ARMs and diversification methods, we must begin to consider the methodology moving forward. Here we look at what are common practices, constraints, and methods of measuring and comparing performance. 
 
 \subsection{Share Selection \& Constraints}
 \label{subsec:Constraints}
@@ -202,10 +206,10 @@ We will need a method to select assets from our pool of data. \cite{righi2017sim
 \cite{CHEN20111777} performed their research differently by randomly selecting a riskless asset together with 30 risky shares from the A-share stocks in the Chinese stock markets. They determined their diversification parameters using 600 trading days. They did not rebalance the portfolio, but merely observed its value after 1 and 4 weeks. 
 
 
-\cite{righi2017simulation} found that re-balancing their portfolio at regular intervals did not result in significant changes. \cite{CHEN20111777} believe that a buy-and-hold strategy may be suitable for an emerging market, as investors may not need to constantly adjust their investment strategies. South Africa is seen more as an emerging market so a buy-and-hold strategy may well be sufficient. \cite{KRATZ2018393} provides more guidance on the matter of re-balancing. In their research, they re-balanced every 10 days. This corresponds to every two trading weeks. They described this is a reflection of normal practice. Interestingly, \cite{KRATZ2018393} included an ``oracle'' trader which they defined as a ``forecaster [that] knows the correct model and its exact parameter values''.  Re-balancing and an ``oracle'' trader are considerations we must make for our research. The ``oracle'' in particular would provide a comparison for the outcomes of our models to that of a portfolio with perfect prediction.
+\cite{righi2017simulation} found that re-balancing their portfolio at regular intervals did not result in significant changes. \cite{CHEN20111777} believe that a buy-and-hold strategy may be suitable for an emerging market, as investors may not need to constantly adjust their investment strategies. South Africa is seen more as an emerging market so a buy-and-hold strategy may well be sufficient. \citet*{KRATZ2018393} provides more guidance on the matter of re-balancing. In their research, they re-balanced every 10 days. This corresponds to every two trading weeks. They described this is a reflection of normal practice. Interestingly, \cite{KRATZ2018393} included an ``oracle'' trader which they defined as a ``forecaster [that] knows the correct model and its exact parameter values''.  Re-balancing and an ``oracle'' trader are considerations we must make for our research. The ``oracle'' in particular would provide a comparison for the outcomes of our models to that of a portfolio with perfect prediction.
 
-Often, transaction costs and taxes are excluded from these models for simplification reasons. It may also complicate the interpretation of the results. \cite{CHEN20111777} maintains though, that these are important considerations that investors take into account when choosing their portfolio. They go further to explain how costs and taxes can be included in models in a simplified way. This is a consideration we must make for our own research. Furthermore \cite{CHEN20111777} impose another constraint, namely ``upper and lower bounds on the proportion of the wealth that the investor will invest on a certain asset". They believe this is a worthwhile constraint because of institutional
-restrictions that would dictate this in practice. This is likely too advanced a consideration for this particular paper and instead be something for consideration in further studies.
+Often, transaction costs and taxes are excluded from these models for simplification reasons. It may also complicate the interpretation of the results. \cite{CHEN20111777} maintains though, that these are important considerations that investors must take into account when choosing their portfolio. They go further to explain how costs and taxes can be included in models in a simplified way. They suggest that it is assumed that any incomes, taxes and expenses are known at the beginning of the investment period, and are paid at the end of the investment period. This is a simplification that would allow us to add some value to the interpretation of our results. Furthermore \cite{CHEN20111777} impose further investment constraints, namely ``upper and lower bounds on the proportion of the wealth that the investor will invest on a certain asset". They believe this is a worthwhile constraint because of institutional
+restrictions that would dictate this in practice. This is likely too advanced a consideration for this particular paper and instead be something for consideration in further studies. An alternative to this constraint that we could use is a liquidity filter, which puts a limit on capital that can be invested for our back-tested portfolios.
 
 \subsection{Measuring \& Comparing Performance}
 \label{subsec:Performance}
@@ -214,15 +218,16 @@ Measuring performance is integral to our paper as it is what we shall use to det
 
 Performance can be simply measured by return and then compared, as was done by \cite{bruder2012managing} in their comparison between a capital-weighted index, and one that was weighted according to ERC.
 
-\cite{CHEN20111777} use ratios to assess the portfolios, of which the most intuitive is the  return to $WES_{\alpha}$ ratio. This is is a ratio of mean return to risk (giving mean return per unit of risk) which was also used by \cite{hoe2010empirical}. 
+\cite{CHEN20111777} use ratios to assess the portfolios, of which the most intuitive is the  return to $WES_{\alpha}$ ratio. This is a ratio of mean return to risk (giving mean return per unit of risk) which was also used by \cite{hoe2010empirical}. 
 
-\cite{byrne2004different} makes a good argument to look at the portfolio compositions rather thatn the risk-return trade-off.  \cite{righi2017simulation} did not look at the composition of the portfolios they created, and did not find any risk measure which was superior to the other. \cite{byrne2004different} found, however, that different ARMs give very different portfolio compositions, and this must be interpreted as differences in diversification. \cite{byrne2004different} argue that thus the choice of risk measure must reflect the investor's appetite for risk. \cite{CHEN20111777} use the Herfindahl index and the number of stocks included in the portfolio to measure the extent of diversification. The Herfindahl index is smaller the more diversified the portfolio is. This is a useful index which should be investigated further for our project. 
+\cite{byrne2004different} make a good argument to look at the portfolio compositions rather than the risk-return trade-off.  \cite{righi2017simulation} did not look at the composition of the portfolios they created, and did not find any risk measure which was superior to the other. \cite{byrne2004different} found, however, that different ARMs give very different portfolio compositions, and this must be interpreted as differences in diversification. \cite{byrne2004different} argue that thus the choice of risk measure must reflect the investor's appetite for risk. \cite{CHEN20111777} use the Herfindahl index and the number of stocks included in the portfolio to measure the extent of diversification. The Herfindahl index is smaller the more diversified the portfolio is. This is a useful index which should be investigated further for our project. A small number of shares included in the portfolio - in comparison to the number of shares selected to be included - indicates a high concentration. The closer those two numbers are together, the more diversified the portfolio is.
 
 Finally, we must determine whether there is any significant change in performance. A hypothesis test is a conventional and easy way to determine this, as was done by \cite{righi2017simulation} in their comparable research.
 
 \section{Conclusion}
 \label{sec:Concl}
 
+Despite variance's practicality, it requires unrealistic assumptions and describes investor preferences symmetrically about the mean. ARMs such as WES better describe investor behaviour and potentially provide a better basis for diversification. Using the diversification methods available to us - such as the risk minimisation and RB approaches - we can create diversified portfolios which can be compared to a MV diversification benchmark. These portfolios will be comprised of long held shares randomly selected from the pool of data available to us. This random selection may be further based on share properties such as the share rating in the overall market. Additional decisions such as rebalancing frequency, costs, taxes and incomes will be incorporated, possibly also including an ``oracle'' trader for comparison. Finally, performance of the different portfolios will be compared. In addition to conventional performance measures such as return and return per risk, we must look at the composition of the portfolios, and the number of shares chosen from our selected shares.
 
 \newpage
 \bibliographystyle{natbib}

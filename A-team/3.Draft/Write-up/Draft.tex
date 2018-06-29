@@ -17,59 +17,158 @@
 
 \begin{document}
 
-
-
 \begin{titlepage}
 
-\title{Investigating the effectiveness of diversification strategies based on alternative risk measures\\
-\line(1,0){250}\\
-\large Draft}
-
-\date{\today}
-
+\title{Investigating the effectiveness of diversification strategies based on alternative risk measures
+\line(1,0){300}
 \author{Richard Montgomery (MNTRIC006)\\
 Tayla Radmore (RDMTAY001)\\
-Thomas K{\"o}nigkr{\"a}mer (KNGTHO005)}
-
+Thomas K{\"o}nigkr{\"a}mer (KNGTHO005)}}
+\date{\today}
 \maketitle
-
-\begin{figure}
-
 \begin{center}
-\includegraphics[width=5cm]{UCTlogo.jpg}\\[1cm]
-\end{center}
-
-\end{figure}
-
-\begin{center}
-\line(1,0){150}\\
 {\tt mntric006@myuct.ac.za}\\
 {\tt rdmtay001@myuct.ac.za}\\
-{\tt thomasekng@gmail.com}
-
-
-keywords: Value-at-Risk, Expected Shortfall, Downside deviance, volatility, risk-budgeting, diversification.
+{\tt thomasekng@gmail.com}\\
+\hfill \break
+\line(1,0){250}\\
 \end{center}
 
-\thispagestyle{empty}
+\begin{center}
+\includegraphics[width=2.0cm]{UCTlogo.jpg}
+\end{center}
+
+\begin{abstract}
+The abstract should summarise succinctly and clearly the motivation for your research, as well as a description of your analysis and findings. 
+The abstract should be written as a single paragraph and ideally should not exceed 200 words. 
+Both title and full abstract should fit on a single title page. 
+You should also include in  your abstract a list of keywords, as shown below. 
+The abstract should be drafted after the paper has been written. 
+You may, if you wish, include an acknowledgements page as a separate sheet at the end --- this will be included in the word count. 
+A plagiarism declaration in the prescribed UCT format should accompany your final paper as a separate sheet.
+
+\noindent
+Keywords: mean-variance, weighted expected shortfall, portfolio diversification.
+\end{abstract}
+
+\thispagestyle{empty} % so there's no page number
 
 \end{titlepage}
 
-\pagenumbering{roman}
+%=======================================
+% take out this entire bordered section for the final - the final doesn't have a contents page
 
-\tableofcontents
+\pagenumbering{roman} 
 
-\newpage
+\tableofcontents 
+
+\newpage 
+
+%=======================================
 
 \pagenumbering{arabic}
 
-\citep{bruder2012managing}\\
-\cite{dowd2006after}
+\section{Introduction}
+\label{sec:Intro}
 
+\citep{ACERBI20021505}
+
+\section{Background and Theory}
+\label{sec:Back}
+
+\subsection{The Mean-Variance Model}
+\label{subsec:MVmodel}
+
+\subsection{Alternative Risk Measures and Diversification}
+\label{subsec:ARMs}
+
+
+%Cohesive risk measurement axioms \footnote{This isn't a focus of the paper but is worth knowing, since it has contributed to risk measures used. Look up for more on this here.} are mentioned here.
+
+\section{Methodology and Data}
+\label{sec:Method}
+
+\subsection{Investor Assumptions}
+\label{subsec:InvAss}
+
+\subsection{Data}
+\label{subsec:Data}
+
+\subsection{Back-test}
+\label{subsec:BackTest}
+
+\section{Results}
+\label{sec:Results}
+
+\section{Discussion and Conclusion}
+\label{sec:Concl}
 
 \newpage
 \bibliographystyle{natbib}
 \bibliography{Bibliography}
 \label{bib:bibliography}
+
+\newpage
+
+\section*{Plagiarism Declaration}
+\label{sec:Plagiarism}
+
+\be
+\item We know that plagiarism is wrong. Plagiarism is to use another's work and
+pretend it is one's own.\\
+\item Each significant contribution to, and quotation in, this project from the
+work of other people has been cited and referenced.\\
+\item This project is our own work.\\
+\item We have not allowed, and will not allow, anyone to copy our work with the
+intention of passing it off as his or her own work.\\
+\ee
+
+\hfill \break
+\textbf{Date:} \date{\today}\\ 	
+\hfill \break
+
+\begin{tabular}{@{}p{0cm}p{10cm}@{}}
+& \hrulefill\\
+& Richard Montgomery\\
+& MNTRIC006\\
+& \hfill \break
+\\
+& \hrulefill\\
+& Tayla Radmore\\
+& RDMTAY001\\
+& \hfill \break
+\\
+& \hrulefill\\
+& Thomas K{\"o}nigkr{\"a}mer\\
+& KNGTHO005\\
+\end{tabular}
+
+\newpage
+
+%================================================
+
+% this is an optional supplementary section to the paper that is included in the page count
+
+\begin{center}
+\section*{Acknowledgements} % so it's not numbered
+\label{sec:Acknow}
+\end{center}
+
+\newpage
+
+%================================================
+
+\appendix
+\section*{Appendices}
+\label{sec:Appendices}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+
+\subsection{Portfolio Compositions}
+\label{subsec: PortComp}
+
+\subsection{Statistical Tests Performed}
+\label{subsec: StatsTests}
+
+\newpage
 
 \end{document}

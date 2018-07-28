@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.6)  26 JUN 2018 12:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2017.9.6)  27 JUL 2018 17:31
 entering extended mode
 **./Draft.tex
 (Draft.tex
@@ -321,7 +321,7 @@ LaTeX Info: Redefining \nameref on input line 18.
 \@outlinefile=\write3
 \openout3 = `Draft.out'.
 
-<Figures/UCTlogo.jpg, id=51, 171.5208pt x 173.9298pt>
+<Figures/UCTlogo.jpg, id=59, 171.5208pt x 173.9298pt>
 File: Figures/UCTlogo.jpg Graphic file (type jpg)
 <use Figures/UCTlogo.jpg>
 Package pdftex.def Info: Figures/UCTlogo.jpg  used on input line 38. on input l
@@ -340,51 +340,51 @@ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.106 \newpage
-               [1] (Draft.bbl) [2]
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+               [1] [2] (Draft.bbl) [3]
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--129
+Underfull \hbox (badness 10000) in paragraph at lines 141--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--129
+Underfull \hbox (badness 10000) in paragraph at lines 141--144
 
  []
 
-[3] [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
+[4] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
  (Draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `Draft.out' has not changed.
-(rerunfilecheck)             Checksum: 5F0A49463EEA357E6A546D119889057F;776.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
+(rerunfilecheck)             Checksum: 6F340A38E5A06B05C2BFD0527D6546CA;915.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
- 6471 strings out of 493314
- 92175 string characters out of 3138868
- 187462 words of memory out of 3000000
- 9921 multiletter control sequences out of 15000+200000
+ 6477 strings out of 493314
+ 92284 string characters out of 3138868
+ 187555 words of memory out of 3000000
+ 9925 multiletter control sequences out of 15000+200000
  11057 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,8n,28p,227b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -395,9 +395,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmtt12.pfb>
-Output written on Draft.pdf (7 pages, 175338 bytes).
+Output written on Draft.pdf (7 pages, 176641 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

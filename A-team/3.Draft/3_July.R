@@ -72,7 +72,7 @@ variance_vector
 
 var(var_data[,2])  #### quick tests
 var(var_data[,45]) 
-
+  
 summary(var_data[,45])
 
 

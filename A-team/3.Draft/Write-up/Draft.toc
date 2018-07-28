@@ -9,5 +9,7 @@
 \contentsline {subsection}{\numberline {3.3}Back-test}{1}{subsection.3.3}
 \contentsline {section}{\numberline {4}Results}{1}{section.4}
 \contentsline {section}{\numberline {5}Discussion and Conclusion}{1}{section.5}
-\contentsline {subsection}{\numberline {A}Portfolio Compositions}{5}{subsection.Alph0.1}
-\contentsline {subsection}{\numberline {B}Statistical Tests Performed}{5}{subsection.Alph0.2}
+\contentsline {subsection}{\numberline {A}Share Data}{5}{subsection.Alph0.1}
+\contentsline {subsection}{\numberline {B}R Code and Backtest}{5}{subsection.Alph0.2}
+\contentsline {subsection}{\numberline {C}Portfolio Compositions}{5}{subsection.Alph0.3}
+\contentsline {subsection}{\numberline {D}Statistical Tests Performed}{5}{subsection.Alph0.4}

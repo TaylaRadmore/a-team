@@ -126,6 +126,7 @@ number_obs
 
 
 
+
 covarience_vector <- NULL
 covarience_matrix <- NULL
 
@@ -140,6 +141,13 @@ for (i in 1:number_of_shares)
   covarience_matrix <- cbind (covarience_matrix, covarience_vector)
   covarience_vector <- NULL
 }
+
+
+var(var_data[,2])  #### quick tests
+var(var_data[,40]) 
+  
+summary(var_data[,40])
+
 
 View(covarience_matrix)
 cov(var_data[,1],var_data[,2])
